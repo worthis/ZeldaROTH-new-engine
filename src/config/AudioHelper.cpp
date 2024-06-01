@@ -15,69 +15,69 @@ string AudioHelper::getMusicName(int id)
     switch (id)
     {
     case 0:
-        return "data/musics/Titre.mid";
+        return "data/musics/Titre.mp3";
     case 1:
-        return "data/musics/Fee.mid";
+        return "data/musics/Fee.mp3";
     case 2:
-        return "data/musics/Opening.mid";
+        return "data/musics/Opening.mp3";
     case 3:
-        return "data/musics/Mort.mid";
+        return "data/musics/Mort.mp3";
     case 4:
-        return "data/musics/Foret.mid";
+        return "data/musics/Foret.mp3";
     case 5:
-        return "data/musics/Plaine.mid";
+        return "data/musics/Plaine.mp3";
     case 6:
-        return "data/musics/Lac.mid";
+        return "data/musics/Lac.mp3";
     case 7:
-        return "data/musics/Cocorico.mid";
+        return "data/musics/Cocorico.mp3";
     case 8:
-        return "data/musics/Chateau.mid";
+        return "data/musics/Chateau.mp3";
     case 9:
-        return "data/musics/Mont.mid";
+        return "data/musics/Mont.mp3";
     case 10:
-        return "data/musics/Desert.mid";
+        return "data/musics/Desert.mp3";
     case 11:
-        return "data/musics/Ombre.mid";
+        return "data/musics/Ombre.mp3";
     case 12:
-        return "data/musics/Feu.mid";
+        return "data/musics/Feu.mp3";
     case 13:
-        return "data/musics/Secret.mid";
+        return "data/musics/Secret.mp3";
     case 14:
-        return "data/musics/Donjon1.mid";
+        return "data/musics/Donjon1.mp3";
     case 15:
-        return "data/musics/Donjon2.mid";
+        return "data/musics/Donjon2.mp3";
     case 16:
-        return "data/musics/Boss.mid";
+        return "data/musics/Boss.mp3";
     case 17:
-        return "data/musics/DDesert.mid";
+        return "data/musics/DDesert.mp3";
     case 18:
-        return "data/musics/DSecret.mid";
+        return "data/musics/DSecret.mp3";
     case 19:
-        return "data/musics/Epee.mid";
+        return "data/musics/Epee.mp3";
     case 20:
-        return "data/musics/DFinal.mid";
+        return "data/musics/DFinal.mp3";
     case 21:
-        return "data/musics/BossF.mid";
+        return "data/musics/BossF.mp3";
     case 22:
-        return "data/musics/Zelda.mid";
+        return "data/musics/Zelda.mp3";
     case 23:
-        return "data/musics/End.mid";
+        return "data/musics/End.mp3";
     case 24:
-        return "data/musics/Cave.mid";
+        return "data/musics/Cave.mp3";
     case 25:
-        return "data/musics/Home.mid";
+        return "data/musics/Home.mp3";
     case 26:
-        return "data/musics/Maison.mid";
+        return "data/musics/Maison.mp3";
     case 27:
-        return "data/musics/Maire.mid";
+        return "data/musics/Maire.mp3";
     case 28:
-        return "data/musics/Jeu.mid";
+        return "data/musics/Jeu.mp3";
     case 29:
-        return "data/musics/Potion.mid";
+        return "data/musics/Potion.mp3";
     case 30:
-        return "data/musics/Bar.mid";
+        return "data/musics/Bar.mp3";
     case 31:
-        return "data/musics/Magasin.mid";
+        return "data/musics/Magasin.mp3";
     default:
         return "";
     }
