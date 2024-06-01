@@ -1,0 +1,362 @@
+APPUYEZ SUR ENTREE
+ECRAN DE SELECTION
+OPTIONS
+RECORDS
+CHARGER
+EFFACER
+ANNULER
+EFFACER ?
+OUI
+NON
+JEU
+COMMANDES
+AUDIO
+RETOUR
+AFFICHAGE :
+PLEIN ECRAN
+FENETRE
+LANGUE :                         FRANCAIS
+LINK :
+ORIGINAL
+BLOND
+MUSIQUE :
+SONS :
+CLAVIER
+MANETTE
+AUCUNE MANETTE DETECTEE
+PAGE 1 / 2
+PAGE 2 / 2
+HAUT :
+BAS :
+GAUCHE :
+DROITE :
+COURIR :
+EPEE :
+OBJET :
+ACTION :
+MENU :
+CARTE :
+ENCYCLOPEDIE :
+QUITTER :
+DEFAUT
+CONFIRMER ?
+ECHAP
+TAB
+MAJ
+ESPACE
+ENTREE
+HAUT
+BAS
+GAUCHE
+DROITE
+OUI
+NON
+TYPE DE CLAVIER :
+AZERTY
+QWERTY
+CAMERA :
+PAGE 1 / 3
+PAGE 2 / 3
+PAGE 3 / 3
+MEILLEUR TEMPS :
+RANG DES 100 %
+RANG ULTIME
+RANG DE RAPIDITE
+RANG : INCONNU
+RANG : Héros d'Hyrule
+RANG : Frimeur
+RANG : Marathonien d'Hyrule
+Finir le jeu à 100 %.
+Finir le jeu sans mourir,
+avec 10 coeurs au maximum,
+sans parler aux Grandes Fées,
+sans acheter de flacons
+et sans prendre le bouclier.
+Finir le jeu en moins de
+deux heures.
+Le Royaume d'Hyrule était en paix depuis que Link, dernier chevalier hylien, avait vaincu le maléfique Ganon et lui avait repris la précieuse Triforce.
+Nul ne sait quel voeu fit Link en touchant la Triforce, mais il eut comme effet de réunifier le monde de la lumière et celui des ténèbres, et ramena à la vie les descendants des 7 sages.
+Link remit ensuite à la princesse Zelda la Triforce et l'épée Excalibur, et le peuple se mit à croire que la paix durerait.                               Mais le peuple se trompait...
+Le souhait de Link à la Triforce eut hélas de fâcheux effets. Ganon et ses sbires furent ainsi ressuscités et s'apprêtèrent à attaquer.
+Quelque part dans la forêt d'Hyrule, Link dort sans se douter que Ganon est passé à l'attaque, jusqu'à ce qu'une voix familière lui parle dans son sommeil...
+A l'aide !                                      A l'aide !                                      C'est moi ! C'est Zelda !                       Je te parle par télépathie.
+Je suis retenue prisonnière dans le donjon du   château ! J'ai besoin de ton aide !             Ganon est de retour, et il a certainement dû    trouver la Triforce à l'heure qu'il est...
+Viens vite au château Link, tu es mon seul espoir...
+AIDE : Appuie sur F1 pour consulter l'aide.
+Voulez-vous arrêter la partie ?                                    [c=2]CONTINUER[c=0]                                 SAUVEGARDER ET QUITTER                         QUITTER SANS SAUVEGARDER
+Voulez-vous arrêter la partie ?                                    [c=0]CONTINUER                                 [c=2]SAUVEGARDER ET QUITTER[c=0]                         QUITTER SANS SAUVEGARDER
+Voulez-vous arrêter la partie ?                                    [c=0]CONTINUER                                 SAUVEGARDER ET QUITTER                         [c=2]QUITTER SANS SAUVEGARDER
+Tu as trouvé un quart de coeur !!!
+Encore [v=1] et tu gagneras un coeur supplémentaire !!!
+Ton nombre de coeurs vient d'augmenter !!!
+Tu as trouvé un flacon !!!
+Sers-t'en pour stocker des potions !
+Tu as trouvé un bouclier !!!                    Ta défense augmente d'un point !
+Tu as trouvé une petite épée !!!                Sers-t'en pour couper des ennemis ou des buissons en appuyant sur [EPEE] !
+Maintenir [EPEE] permet de préparer une attaque chargée !
+Ton épée a triplé de puissance et peut désormais renvoyer certaines attaques magiques, trop bien !!!
+Tu as trouvé Excalibur !!!                      Même Ganon ne devrait pas pouvoir résister à sa puissance !!! (en théorie)
+Tu as trouvé les gants !!!                      Utilise-les pour soulever des objets en les équipant ou en appuyant sur [ACTION].
+La puissance de tes gants va te permettre de    soulever de lourds rochers.
+Tu as obtenu l'arc !!!                          Utilise-le pour atteindre des cibles éloignées.
+Ton arc tire désormais des flèches d'argent     d'une puissance dévastatrice !!!
+Tu as trouvé les palmes !!!                     Tu peux désormais aller dans l'eau !
+Tu as trouvé le marteau magique !!!             Utilise-le pour écraser les obstacles.
+Tu as trouvé la lanterne !!!                    Utilise-la pour faire jaillir des flammes.
+Tu as obtenu une potion rouge !!!               Bois-la pour restaurer ton énergie !!!
+Tu as obtenu une potion verte !!!               Bois-la pour restaurer ta magie !!!
+Tu as obtenu une potion bleue !!!               Bois-la pour restaurer ton énergie et ta magie !!!
+Tu as trouvé la carte du donjon !!!             Tu peux la consulter en appuyant sur [CARTE] à l'intérieur du donjon !!!
+Tu as trouvé la boussole !!!                    L'emplacement des coffres et des boss est désormais indiqué sur la carte !!!
+Tu as trouvé la clé du boss !!!                 Tu peux désormais accéder à son repaire !!!
+Tu as trouvé une petite clé !!!                 Tu peux désormais ouvrir une porte verrouillée !!!
+Tu as obtenu un médaillon magique !!!           Ta défense vient d'augmenter !!!
+Tu as trouvé le grappin !!!                     Tu peux désormais franchir des précipices en le lançant contre des objets en bois !!!
+Tu as trouvé la baguette de feu !!!             Tu peux désormais envoyer de puissantes boules de feu !!!
+Tu as trouvé la baguette de glace !!!           Tu peux désormais envoyer de puissants projectiles givrants !!!
+                   Niveau 1 :                                                                                 Temple de la Forêt
+                   Niveau 2 :                                                                                   Temple de l'Eau
+                   Niveau 3 :                                                                                Temple de la Montagne
+                   Niveau 4 :                                                                                  Temple du Désert
+                   Niveau 5 :                                                                                  Temple de l'Ombre
+                   Niveau 6 :                                                                                    Temple du Feu
+                   Niveau 7 :                                                                                 Temple de la Glace
+                   Niveau ? :                                                                                    Temple Secret
+                 Niveau Final :                                                                                Château d'Hyrule
+CRISTAUX :
+STATUT :
+VIE       :
+MAGIE     :
+FORCE     :
+DEFENSE   :
+TEMPS     :
+AIDE 1 / 2
+AIDE 2 / 2
+Retour au jeu : F1           Suivant : Droite
+Retour au jeu : F1         Précédent : Gauche
+Coup d'épée :
+Attaque Tornade :              Maintenir épée
+Ouvrir / Parler / Soulever :
+Utiliser l'objet sélectionné :
+Menu de sélection d'objet :
+Courir :
+Carte (extérieur ou donjons) :
+Encyclopédie des monstres :
+Regarder autour :
+Sauvegarder / Quitter :
+Agrandir / Rétrécir :          CTRL et ENTREE
+MONSTRES 1
+MONSTRES 2
+MONSTRES 3
+MONSTRES 4
+N : Maison de Link                              O : Plaine d'Hyrule                             E : Temple de la Forêt
+Temple de la Forêt                                                                              Sauvez les arbres, mangez du castor !!!
+N : Mont du Péril
+S : Vers le village Cocorico
+S : Lac Hylia                                   E : Cimetière Hanté
+E : Entrée de la Forêt
+O : Terres de Feu
+N : Village Cocorico
+Temple de Glace                                                                                 Le personnel tient à rappeler qu'un donjon n'est pas une patinoire.
+Temple de l'Eau                                                                                 Bonnet de bain obligatoire.
+N : Plaine d'Hyrule
+E : Village de l'Ombre                          - Déconseillé aux vivants -
+O : Château d'Hyrule
+Village Cocorico
+N : Désert et village Gerudo
+S : Lac Hylia                                   O : Château d'Hyrule
+Quelle belle journée !!!
+Pourquoi ai-je accepté de m'occuper de ces      saletés ???                                     J'ai horreur des poules !!!
+On trouve des tas de choses dans les boutiques  du village.
+Je vends un flacon pour 100 rubis, ça           t'intéresse ?                                                 [c=2]OUI[c=0]              NON
+Je vends un flacon pour 100 rubis, ça           t'intéresse ?                                                 [c=0]OUI              [c=2]NON
+Désolé, mais tu n'as pas assez de rubis.
+Merci beaucoup, voilà ton flacon.
+Reviens me voir si tu changes d'avis.
+Désolé, c'était mon seul flacon.
+S : Terres de Feu                               E : Village Cocorico
+Château d'Hyrule
+E : Village Cocorico
+O : Entrée du Désert                            N : Temple de la Montagne
+Temple de la Montagne                                                                           Déconseillé aux cardiaques, peureux, et aux âmes sensibles en général.
+N : Temple de la Montagne                       S : Plaine d'Hyrule
+Temple du Désert                                                                                Venez essayer nos bains.                        (eau non-potable)
+S : Vers le Château d'Hyrule
+Perdu dans le désert ?                          Vous êtes ici :                                                         X
+Village Gerudo
+S : Village Cocorico                            O : Désert                                      E : Mont du Péril
+Le temple se trouve au fin fond du désert, à la place d'une ancienne oasis.
+As-tu été voir le forgeron de ce village ?      On dit qu'il est très doué pour améliorer       l'équipement des aventuriers, beaucoup de monde lui rend visite.
+N : Village de l'Ombre                          O : Lac Hylia
+N : Cimetière Hanté                                                                             Entrée interdite
+Village de l'Ombre
+Temple  de l'Ombre                                                                              Si vous êtes un fantôme et que vous cherchez un job, venez plutôt chômer ici.
+Les habitants de ce village ont un dialecte très particulier, je n'y comprends rien...
+Obtiens une autorisation du chef si tu veux vraiment passer !!!
+Le chef t'as autorisé à passer ??? Grrrr... Alors écarte toi !!!
+Ne traîne pas dans mes pattes !!!
+@+@+@+@+@+@+@@@+                                @=++=@=+@=+@=+=@                                +@+@+@+=+=
+On n'a pas l'habitude de voir des visiteurs par ici...
+Les monstres du coin ne craignent pas           grand-chose, heureusement qu'ils n'attaquent que les humains.
+C'est vrai ?                                    Tu comprends ce que je dis ?
+Roc de la Tortue                                                                                Frappez avant d'entrer !
+O : Roc de la Tortue                            E : Lac Hylia
+Temple Caché                                                                                    Ici repose la lame purificatrice, Excalibur.
+N : Vers le cimetière hanté
+Tu as trouvé un cristal magique !!!
+A quoi pourra-t-il bien servir ?
+Il en reste encore [v=1] à trouver !!!
+Plus que 2 à trouver !!!
+Il ne t'en manque plus qu'un seul !!!
+Tu as tous les cristaux, cours au château sauver Zelda !!!
+Souhaites-tu sauvegarder ?                                            [c=2]OUI[c=0]                                             NON
+Souhaites-tu sauvegarder ?                                            OUI                                             [c=2]NON[c=0]
+Souhaites-tu retourner à l'entrée du donjon ?                         [c=2]OUI[c=0]                                             NON
+Souhaites-tu retourner à l'entrée du donjon ?                         OUI                                             [c=2]NON[c=0]
+Temple de la forêt
+Temple de l'eau
+Temple de la montagne
+Temple du désert
+Temple de l'ombre
+Temple du feu
+Temple de la glace
+Temple secret
+Château d'Hyrule
+Félicitations, Link, tu as réussi à venir me    délivrer !                                      Allons vite trouver Ganon, il faut impérativement lui reprendre la Triforce !
+Le passage secret derrière la salle du trône mène à Ganon. Dépêchons-nous !
+Nous y sommes presque, suis-moi !
+J'ai bien peur que tu ne puisses jamais vaincre Ganon avec tes armes actuelles...               Va parler au chef du village Cocorico, je suis sûre qu'il trouvera une solution.
+Ganon est juste derrière cette porte, je vais soigner tes blessures.
+Ganon est toujours quelque part dans le château !
+Attends moi, Link !!!                           Tu crois que c'est facile de courir avec des    talons ???
+Tu n'aurais pas l'étrange sentiment d'oublier quelqu'un par hasard ?
+Zelda t'attend !!!                              Elle est sans doute retenue prisonnière dans les cachots au sous-sol !
+Tu as trouvé la Triforce!!!
+A l'instant où Link toucha la Triforce, les       monstres disparurent et la paix revint.                                                             La princesse Zelda prit alors une grande décision: elle toucha à son tour la Triforce pour exaucer son voeu...                                                                                         La Triforce était depuis toujours à l'origine des problèmes survenus au Royaume, tôt ou tard un     autre être malfaisant aurait fini par la trouver.                                                   A la seconde où la princesse toucha la relique,   elle disparut à jamais d'Hyrule.
+Depuis ce jour, le peuple d'Hyrule vécut en paix, sans craindre de nouveaux désastres.                                                                Ainsi s'achève la légende de Zelda, celle de la   Triforce et de la Terre d'Or.                                                                       On dit que l'épée Excalibur repose en sûreté      quelque part, et qu'elle constitue le dernier     souvenir de la quête de Link.
+Tu as trouvé le livre de Mudora !!!                                                             Tu comprends désormais le Hylien ancien !!!
+Félicitations, Link, tu as réussi à me trouver. En récompense, je t'offre le médaillon de Din, il augmente ta défense d'un point.
+Félicitations, Link, tu as réussi à me trouver. En récompense, je t'offre le médaillon de Farore, il augmente ta défense d'un point.
+Félicitations, Link, tu as réussi à me trouver. En récompense, je t'offre le médaillon de Nayru, il augmente ta défense de deux points !!!
+Je vais soigner tes blessures.
+...
+Félicitations, Link, tu as réussi à me trouver. Pour te récompenser, je vais doubler la capacité de ta réserve de magie.
+Ta réserve de magie a doublé !!!
+Bienvenue, Link !                               Laisse-moi t'expliquer ce que je fais ici.
+Comme tu l'as certainement remarqué, des        monstres sont apparus partout dans Hyrule.      C'est la première fois que je vois des monstres depuis que tu as vaincu Ganon.
+Eh bien j'ai décidé de tous les répertorier.
+L'ennui, c'est que je suis bien trop peureux pour aller à leur rencontre, alors j'ai besoin de ton aide.
+Il faut que tu battes chaque type de monstre et que tu viennes me faire ton rapport, je te récompenserai tous les 7 nouveaux types d'ennemis vaincus.
+Si tu veux savoir quels ennemis tu as déjà vaincu, appuie sur [MONSTERS].
+Encore [v=1] ennemis différents avant la prochaine récompense.
+Plus qu'un nouvel ennemi avant la prochaine récompense !!!
+Accepte ce cadeau pour ta contribution à mon projet :
+Je suis désolé mais je n'ai plus rien à t'offrir...
+Je n'en crois pas mes yeux, tu as réussi à      vaincre chaque type d'ennemis !!!               Félicitations, Link !!!
+Bonjour, Link, je suis le chef de ce village, je me doutais que tu passerais.
+Depuis ce matin, des monstres sont apparus un peu partout en Hyrule, j'ai voulu aller en parler à la princesse Zelda, mais comme tu l'as peut-être déjà vu, un puissant sortilège bloque l'accès au château...
+Tu dis que Ganon est responsable de tout ça ? Qu'il a volé la Triforce et qu'il rétient la princesse Zelda prisonnière ?
+Mmmm... la situation est plus grave que je le   croyais...                                      Il faut agir au plus vite, tu dois affronter Ganon à nouveau !
+Comment entrer dans le château ? J'ai peut-être une idée...
+Comme tu le sais, le pouvoir des 7 sages a été enfermé dans 7 cristaux par le sorcier Aghanim alors qu'il tentait de lever le sceau qui confinait Ganon dans monde des ténèbres.
+Or, bien que tu aies ressuscité les descendants des sages après avoir vaincu Ganon et trouvé la Triforce, ces cristaux ont conservé leur puissance.
+Ils ont été cachés au fin fond des 7 temples, réunis-les tous et tu pourras passer outre le sortilège de Ganon.
+Ce ne sera toutefois pas chose aisée, Ganon a certainement dû envoyer ses meilleurs éléments protéger ces cristaux...
+Une dernière chose, tu n'iras pas loin avec ton équipement actuel. Va voir le marchand d'armes et dis-lui que tu viens de ma part. Il fera sûrement un geste pour toi.
+Va voir le marchand d'armes et dis-lui que tu viens de ma part, il fera certainement un geste pour toi.
+Il te faut rassembler les 7 cristaux pour avoir une chance de sauver Zelda et Hyrule...
+Tu as trouvé les 7 cristaux ? Alors rends-toi au château, tu dois avant tout délivrer la princesse, elle saura mieux que moi comment sauver Hyrule.
+Tes armes sont sans effet sur Ganon ? Dans ce cas, tu dois trouver Excalibur. On raconte qu'elle a été dissimulée dans un temple caché. 
+On dit aussi que le chemin menant à la lame     purificatrice passe par un village peuplé de    monstres...                                     Je me demande si un tel village existe...
+Toutefois, j'ai bien peur que ton équipement actuel soit insuffisant pour accéder à ce temple, tu devrais peut-être passer voir le forgeron du village Gerudo...
+Il est temps d'affronter Ganon et de lui reprendre la Triforce !
+Un de ces coffres contient un quart de coeur, tu veux tenter ta chance pour 10 rubis ?          Tu ne pourras ouvrir qu'un seul coffre, ok ?                  [c=2]OUI[c=0]              NON
+Un de ces coffres contient un quart de coeur, tu veux tenter ta chance pour 10 rubis ?          Tu ne pourras ouvrir qu'un seul coffre, ok ?                  OUI              [c=2]NON[c=0]
+Ouvre le coffre de ton choix.
+Je n'ai plus de prix à mettre en jeu, désolé.
+Reviens me voir quand tu auras un flacon vide   et je te vendrai une potion rouge qui restaure  l'énergie.
+Une potion rouge pour 60 rubis, ça t'intéresse ?                                                              [c=2]OUI[c=0]              NON
+Une potion rouge pour 60 rubis, ça t'intéresse ?                                                              OUI              [c=2]NON[c=0]
+Merci, voilà ta potion.
+Bonjour, je vous sers quelque chose ?
+Hic ! On raconte qu'une fée donnerait des objets enchantés... Hic ! ... aux aventuriers qui la  trouveraient... Hic !!!
+Un coeur pour 2 rubis, ok ?                                                                                   [c=2]OUI[c=0]              NON
+Un coeur pour 2 rubis, ok ?                                                                                   OUI              [c=2]NON[c=0]
+De la magie pour 20 rubis, ok ?                                                                               [c=2]OUI[c=0]              NON
+De la magie pour 20 rubis, ok ?                                                                               OUI              [c=2]NON[c=0]
+5 flèches pour 10 rubis, ok ?                                                                                 [c=2]OUI[c=0]              NON
+5 flèches pour 10 rubis, ok ?                                                                                 OUI              [c=2]NON[c=0]
+Une bombe pour 10 rubis, ok ?                                                                                 [c=2]OUI[c=0]              NON
+Une bombe pour 10 rubis, ok ?                                                                                 OUI              [c=2]NON[c=0]
+Un arc pour 1 000 rubis, ok ?                                                                                 [c=2]OUI[c=0]              NON
+Un arc pour 1 000 rubis, ok ?                                                                                 OUI              [c=2]NON[c=0]
+Un arc pour 50 rubis, ok ?                                                                                    [c=2]OUI[c=0]              NON
+Un arc pour 50 rubis, ok ?                                                                                    OUI              [c=2]NON[c=0]
+Tu n'as pas besoin de ça maintenant.
+Merci.
+Choisis ce que tu veux.
+Hein ???                                        Tu es en mission pour le chef ???               Bon, alors je vais te faire une petite réduction sur l'arc...
+Tu as déjà acheté l'arc, je n'en ai pas d'autre.
+Merci... Mais tu fais une affaire...
+Reviens plus tard, je suis débordé !
+Puis-je faire quelque chose pour toi ?
+Veux-tu que je reforge ton épée ?                                                                             [c=2]OUI[c=0]              NON
+Veux-tu que je reforge ton épée ?                                                                             OUI              [c=2]NON[c=0]
+Veux-tu que j'améliore tes gants ?                                                                            [c=2]OUI[c=0]              NON
+Veux-tu que j'améliore tes gants ?                                                                            OUI              [c=2]NON[c=0]
+Veux-tu que j'améliore ton arc ?                                                                              [c=2]OUI[c=0]              NON
+Veux-tu que j'améliore ton arc ?                                                                              OUI              [c=2]NON[c=0]
+Bonjour, Link, je suis le chef de ce village.   Tu devrais aller voir le forgeron et lui        présenter ce que tu veux qu'il reforge dans ton équipement.
+J'ai été informé de ta quête, alors je me suis  arrangé avec lui. Tout sera gratuit pour toi.
+Reviens me voir quand tu auras un flacon vide et je te vendrai une potion verte qui restaure la magie.
+Une potion verte pour 40 rubis, ça t'intéresse ?                                                              [c=2]OUI[c=0]              NON
+Une potion verte pour 40 rubis, ça t'intéresse ?                                                              OUI              [c=2]NON[c=0]
+Bonjour ! Si tu es venu voir le forgeron, il    habite un peu plus loin.
+Lorsque tu as ramené la paix sur Hyrule et      réunifié le monde de la lumière avec la Terre   d'Or, Zelda a secrètement demandé aux esprits   volontaires de créer ce village pour bloquer l'accès à un objet de très grande valeur.
+Notre village a été fondé pour empêcher les     aventuriers imprudents d'accéder au temple, je  ne donne pas l'autorisation de passer à         n'importe qui.
+Mmmm... Tu as déjà trouvé 4 cristaux ?          Je dois avouer que tu m'impressionnes...
+Bon, c'est entendu, tu as l'autorisation de passer par le cimetière, à tes risques et périls.
+Va parler au garde au nord du village, il te laissera passer.
+Je vois que tu es toujours vivant...            Etonnant.
+Le temple de l'ombre constitue le point de      départ du chemin menant à un objet de légende.  Ce village ne sert qu'à dissuader les           aventuriers de trop s'en approcher.
+Ainsi tu as trouvé l'Epée ?                     Mais ne crois pas qu'elle soit à toi pour autant.
+Excalibur fait partie du patrimoine le plus     précieux d'Hyrule avec la Triforce, tu devras la ramener dans son sanctuaire une fois ta mission achevée.
+Reviens me voir quand tu auras un flacon vide et je te vendrai une potion bleue qui restaure l'énergie et la magie.
+Une potion bleue pour 160 rubis, ça t'intéresse?                                                              [c=2]OUI[c=0]              NON
+Une potion bleue pour 160 rubis, ça t'intéresse?                                                              OUI              [c=2]NON[c=0]
+Les habitants de ce village sont tous des esprits ayant répondu à l'appel de la princesse Zelda.
+SCORES :
+Temps de jeu :
+Mort [v=1] fois
+Mort [v=1] fois
+Quarts de coeurs : [v=1] / 36
+Objets : [v=1] / 56
+Types d'ennemis vaincus : [v=1] / 46
+Félicitations, tu as fini le jeu à [v=1] % !!!
+RANG :
+- Frimeur
+- Perfectionniste
+- Fan de Zelda
+- Joueur confirmé
+- Joueur débutant
+- Marathonien d'Hyrule
+- Mort-vivant
+- Kamikaze
+RANGS :
+Concepteur / Développeur :
+Vincent Jouillat
+Illustrations :
+Solène Jouillat
+Carte d'Hyrule :
+Adrien Baptis
+Relecture des textes FR :
+Sabrina Jouillat
+Traductions US :
+Sandrine Gadenne
+Traductions ES :
+Esteban Holguín
+Remerciements :
+à Nintendo pour avoir créé la licence Zelda
+à la communauté du forum zeldaroth.fr
+pour son soutien depuis des années !
+- Héros d'Hyrule

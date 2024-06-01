@@ -1,0 +1,362 @@
+PRESIONA ENTER
+PANTALLA DE SELECCION
+OPCIONES
+RECORDS
+CARGAR
+BORRAR
+ANULAR
+¿BORRAR?
+SI
+NO
+JUEGO
+CONTROLES
+AUDIO
+ATRAS
+VISUALIZACION:
+PANTALLA COMPLETA
+VENTANA
+IDIOMA:                           ESPANOL
+LINK:
+ORIGINAL
+RUBIO
+MUSICA:
+SONIDO:
+TECLADO
+MANDO
+NO SE HA DETECTADO NINGUN MANDO
+PAGINA 1/2
+PAGINA 2/2
+ARRIBA:
+ABAJO:
+IZQUIERDA:
+DERECHA:
+CORRER:
+ESPADA:
+OBJETO:
+ACCION:
+MENU:
+MAPA:
+BESTIARIO:
+SALIR:
+DEFECTO
+¿CONFIRMAR?
+ESC
+TAB
+SHIFT
+ESPACIO
+ENTER
+ARRIBA
+ABAJO
+IZQUIERDA
+DERECHA
+SI
+NO
+TIPO DE TECLADO:
+AZERTY
+QWERTY
+CAMARA:
+PAGINA 1/3
+PAGINA 2/3
+PAGINA 3/3
+MEJOR TIEMPO:
+RANGO DEL 100 %
+RANGO DEFINITIVO
+RANGO DE RAPIDEZ
+RANGO: DESCONOCIDO
+RANGO: Héroe de Hyrule
+RANGO: Creído
+RANGO: Maratonista de Hyrule
+Completar el juego al 100 %.
+Completar el juego sin morir,
+con un máximo de 10 corazones,
+sin la ayuda de las Grandes Hadas,
+sin comprar pociones
+y sin llevar el escudo.
+Completar el juego en menos de
+dos horas.
+Desde que el último caballero hyliano, Link, venció al malvado Ganon y le arrebató su preciada Trifuerza, el reino de Hyrule vive en paz.
+Al tocar la Trifuerza, Link pidió un deseo secreto que volvió a unir los mundos de la luz y las tinieblas, y devolvió a la vida a los descendientes de los siete sabios.
+Cuando Link entregó luego la Trifuerza y la espada Excálibur a la princesa Zelda, el pueblo pensó que la paz sería duradera.                               Pero el pueblo estaba equivocado...
+Por desgracia, el deseo de Link tuvo nefastas consecuencias: resucitar a Ganon y sus secuaces, que estaban listos para atacar.
+Link duerme en algún lugar del bosque de Hyrule sin sospechar un ataque de Ganon, pero una voz familiar lo llama en su sueño...
+¡Auxilio!                                       ¡Auxilio!                                       ¡Soy yo, Zelda!                                 Te estoy hablando por telepatía.
+¡Estoy presa en la mazmorra del castillo!       ¡Necesito tu ayuda!                             Ganon ha vuelto, y es probable que ya tenga la  Trifuerza en su poder...
+Ven rápido al castillo, Link. Eres mi única esperanza...
+AYUDA: Presiona F1 para consultar la ayuda.
+¿Deseas interrumpir la partida?                                    [c=2]CONTINUAR[c=0]                                     GRABAR Y SALIR                                 SALIR SIN GRABAR
+¿Deseas interrumpir la partida?                                    [c=0]CONTINUAR                                     [c=2]GRABAR Y SALIR[c=0]                                 SALIR SIN GRABAR
+¿Deseas interrumpir la partida?                                    [c=0]CONTINUAR                                     GRABAR Y SALIR                                 [c=2]SALIR SIN GRABAR
+¡Has encontrado una pieza de corazón!
+Reúne [v=1] más y conseguirás un contenedor de corazón.
+¡Ha aumentado el número de contenedores que llevas!
+¡Has encontrado una botella!
+Se puede usar para almacenar pociones.
+¡Has encontrado un escudo!                      Tu defensa sube un punto.
+¡Has encontrado un espada pequeña!              Presiona [EPEE] para atacar enemigos o cortar hierba.
+¡Mantén [EPEE] presionado para lanzar un ataque circular!
+¡Ahora tu espada tiene el triple de poder y puede devolver algunos ataques mágicos! ¡Nada mal!
+¡Has encontrado Excálibur!                      ¡Ni siquiera Ganon puede rivalizar con semejante poder (en teoría)!
+¡Has encontrado los guantes!                    Si los llevas puestos o si presionas [ACTION], podrás levantar objetos.
+El poder de los guantes te permitirá levantar rocas pesadas.
+¡Has obtenido el arco!                          Se puede usar para atacar enemigos fuera de alcance.
+¡Ahora tu arco puede lanzar flechas de plata de fuerza descomunal!
+¡Has encontrado las aletas!                     ¡Ahora puedes nadar en el agua!
+¡Has encontrado el martillo mágico!             Se puede usar para aplastar obstáculos.
+¡Has encontrado el candil!                      Se puede usar para encender una llama.
+¡Has obtenido una poción roja!                  Se puede usar para recuperar corazones.
+¡Has obtenido una poción verde!                 Se puede usar para recuperar magia.
+¡Has obtenido una poción azul!                  Se puede usar para recuperar corazones y magia.
+¡Has encontrado el mapa de la mazmorra!         Presiona [CARTE] para consultarlo dentro de la mazmorra.
+¡Has encontrado la brújula!                     Ahora puedes observar la ubicación de los tesoros y los jefes en el mapa.
+¡Has encontrado la llave del jefe!              Ahora tienes acceso a su guarida.
+¡Has encontrado una llave pequeña!              Ahora puedes abrir una puerta cerrada.
+¡Has obtenido el medallón mágico!               Ha aumentado tu defensa.
+¡Has encontrado el gancho!                      Ahora puedes cruzar abismos al lanzarlo contra objetos de madera.
+¡Has encontrado el cetro de fuego!              Ahora puedes lanzar poderosas bolas de fuego.
+¡Has encontrado el cetro de hielo!              Ahora puedes lanzar poderosos proyectiles que congelan al enemigo.
+                    Nivel 1:                                                                                   Palacio del Bosque
+                    Nivel 2:                                                                                    Palacio del Agua
+                    Nivel 3:                                                                                  Palacio de la Montaña
+                    Nivel 4:                                                                                  Palacio del Desierto
+                    Nivel 5:                                                                                  Palacio de la Sombra
+                    Nivel 6:                                                                                    Palacio del Fuego
+                    Nivel 7:                                                                                    Palacio del Hielo
+                    Nivel ?:                                                                                     Palacio secreto
+                  Último nivel:                                                                                Castillo de Hyrule
+CRISTALES:
+VALORES:
+VIDA       :
+MAGIA      :
+FUERZA     :
+DEFENSA    :
+TIEMPO     :
+AYUDA 1/2
+AYUDA 2/2
+Regresar al juego: F1      Siguiente: Derecha
+Regresar al juego: F1     Anterior: Izquierda
+Espadazo:
+Ataque circular:              Mantener espada
+Abrir / Hablar / Levantar:
+Usar el objeto seleccionado:
+Menú de selección de objeto:
+Correr:
+Mapa (exterior o mazmorra):
+Bestiario:
+Mirar a los alrededores
+Guardar / Salir:
+Aumentar / Reducir               CTRL y ENTER
+ENEMIGOS 1
+ENEMIGOS 2
+ENEMIGOS 3
+ENEMIGOS 4
+N: Casa de Link                                 O: Pradera de Hyrule                            E: Palacio del Bosque
+Palacio del Bosque                                                                              ¡Si quieres salvar los árboles, come castores!
+N: Montaña de la Muerte
+S: Hacia el Pueblo Kakariko
+S: Lago Hylia                                   E: Cementerio Embrujado
+E: Entrada del Bosque
+O: Tierras de Fuego
+N: Pueblo Kakariko
+Palacio del hielo                                                                               El personal le recuerda que una mazmorra no es ninguna pista de patinaje.
+Palacio del Agua                                                                                Es obligatorio el uso de un gorro.
+N: Pradera de Hyrule
+E: Pueblo de la Sombra                          - No apto para gente viva -
+O: Castillo de Hyrule
+Pueblo Kakariko
+N: Desierto y Pueblo Gerudo
+S: Lago Hylia                                   O: Castillo de Hyrule
+¡Qué día maravilloso!
+¿Cómo se me ocurre aceptar cuidar a estos       bichos?                                         ¡Odio los cucos!
+Se encuentran muchas cosas en las tiendas del pueblo.
+Te vendo esta botella por 100 rupias            ¿Te interesa?                                                  [c=2]Sí[c=0]              No
+Te vendo esta botella por 100 rupias            ¿Te interesa?                                                  [c=0]Sí              [c=2]No
+Lo siento, no tienes suficientes rupias.
+Muchas gracias, aquí está tu botella.
+Vuelve a hablar conmigo si cambias de parecer.
+Solo tenía una botella. Lo siento.
+S: Tierras de Fuego                             E: Pueblo Kakariko
+Castillo de Hyrule
+E: Pueblo Kakariko
+O: Entrada del Desierto                         N: Palacio de la Montaña
+Palacio de la Montaña                                                                           No apto para personas con taquicardia, miedosos y blandengues, en general.
+N: Palacio de la Montaña                        S: Pradera de Hyrule
+Palacio del Desierto                                                                            Venga a darse un baño.                          (el agua no es potable)
+S: Hacia el Castillo de Hyrule
+¿Perdido en el desierto?                        Usted se encuentra aquí:                                                X
+Pueblo Gerudo
+S: Pueblo Kakariko                              O: Desierto                                     E: Montaña de la Muerte
+El palacio se encuentra en lo más recóndito del desierto, donde había antiguamente un oasis.
+¿Conoces al herrero del pueblo?                 Dicen que tiene mucho talento para mejorar el equipo de los aventureros. Mucha gente lo ha ido a visitar.
+N: Pueblo de la Sombra                          O: Lago Hylia
+N: Cementerio Embrujado                                                                         Se prohíbe la entrada
+Pueblo de la Sombra
+Palacio de la Sombra                                                                        Los fantasmas en busca de un empleo pueden asomarse aquí.
+Los habitantes de este pueblo hablan un dialecto muy peculiar. No entiendo nada...
+¡Pide una autorización al jefe si de verdad quieres pasar!
+¿El jefe te dejó pasar? Grrr... ¡En este caso, fuera de mi vista!
+¡Apártate de mi camino!
+@+@+@+@+@+@+@@@+                                @=++=@=+@=+@=+=@                                +@+@+@+=+=
+Por lo general, no se ve mucha gente de fuera...
+Las bestias de la zona campan a sus anchas. Lo bueno es que solo atacan a los humanos.
+¿De verdad?                                     ¿Entiendes lo que te digo?
+Roca de la Tortuga                                                                              Tocar antes de entrar
+O: Roca de la Tortuga                           E: Lago Hylia
+Palacio Oculto                                                                                  Aquí descansa la espada purificadora, Excálibur.
+N: Hacia el Cementerio Embrujado
+¡Has encontrado un cristal mágico!
+¿Qué propósito tendrá?
+¡Aún te faltan [v=1] por encontrar!
+¡Te faltan dos por encontrar!
+¡Ya no te hace falta sino uno!
+Has conseguido todos los cristales. ¡Ve rápido al castillo para rescatar a Zelda!
+¿Quieres grabar?                                                       [c=2]Sí[c=0]                                              No
+¿Quieres grabar?                                                       Sí                                              [c=2]No[c=0]
+¿Quieres regresar a la entrada de la mazmorra?                         [c=2]Sí[c=0]                                              No
+¿Quieres regresar a la entrada de la mazmorra?                         Sí                                              [c=2]No[c=0]
+Palacio del Bosque
+Palacio del Agua
+Palacio de la Montaña
+Palacio del Desierto
+Palacio de la Sombra
+Palacio del Fuego
+Palacio del Hielo
+Palacio secreto
+Castillo de Hyrule
+¡Gracias, Link, has conseguido rescatarme!      Encontremos rápido a Ganon. ¡Tenemos que recuperar la Trifuerza!
+El pasadizo secreto detrás del trono nos llevará a Ganon. ¡De prisa!
+¡Casi llegamos, sígueme!
+Me temo que jamás vas a poder derrotar a Ganon con el armamento que llevas.                     Habla con el jefe del pueblo Kakariko. Estoy segura de que sabrá que hacer.
+Ganon se encuentra detrás de esta puerta. Voy a curar tus heridas.
+¡Ganon sigue en algún lugar del castillo!
+¡Espérame, Link!                                ¡Te aseguro que no es nada fácil correr con tacones!
+Oye, ¿no habrás olvidado a alguien?
+¡Zelda te está esperando!                       ¡Seguro que está presa en el calabozo del sótano!
+¡Has encontrado la Trifuerza!
+En el instante en que Link tocó la Trifuerza      desparecieron los monstruos y volvió la paz.                                                        La princesa Zelda tomó entonces una decisión      capital al tocar igualmente la Trifuerza para     pedir un deseo...                                                                                   Desde tiempos inmemoriales, la Trifuerza ha       originado muchas tragedias en el reino. Tarde o   temprano otro ser malvado conseguiría hacerse con su poder.                                                                                           Cuando la princesa posó las manos sobre la        reliquia, esta despareció de Hyrule para siempre.
+Desde aquel día, el pueblo de Hyrule vivió en paz, sin temor a que se produjeran nuevas desgracias.                                                  Así termina la leyenda de Zelda, la Trifuerza y la Tierra Dorada.                                                                                      Se cree que la espada Excálibur descansa en un lugar seguro y que constituye el último recuerdo de la aventura de Link.
+¡Has encontrado el Libro de Mudora!                                                              Ahora puedes comprender el hyliano antiguo.
+¡Gracias por rescatarme, Link!                  En agradecimiento, te regalo el medallón de Din. Tu defensa sube un punto.
+¡Gracias por rescatarme, Link!                  En agradecimiento, te regalo el medallón de Farore. Tu defensa sube un punto.
+¡Gracias por rescatarme, Link!                  En agradecimiento, te regalo el medallón de Nayru. Tu defensa sube un punto.
+Voy a curar tus heridas.
+...
+¡Gracias por rescatarme, Link! En agradecimiento, voy a mejorar tu poder mágico.
+¡Ahora tienes el doble de poder mágico!
+¡Bienvenido, Link!                              Déjame explicarte lo que estoy haciendo aquí.
+Como habrás notado, muchas bestias han aparecido por todo Hyrule. Es la primera vez que veo monstruos desde que derrotaste a Ganon.
+Y se me ocurre clasificarlos.
+Pero me da mucho miedo acercarme a ellos. Así que lo mejor sería que me echaras una mano.
+Vence cada tipo de bestia e infórmame de tu progreso. Te daré una recompensa cada vez que derrotes a siete clases distintas de enemigos.
+Para saber qué enemigos lograste vencer, presiona [MONSTERS].
+Aún te faltan [v=1] enemigos distintos por vencer antes de obtener la siguiente recompensa.
+Solo te falta un enemigo antes de conseguir la siguiente recompensa.
+Gracias por tu ayuda. Acepta este regalo:
+Lo siento, pero no tengo nada más que ofrecerte...
+¡No lo puedo creer, conseguiste derrotar cada   tipo de enemigo!                                ¡Qué bien, Link!
+Hola, Link, soy el jefe del pueblo. Ya suponía que vendrías.
+Desde esta mañana han aparecido bestias en todo Hyrule. Quería discutir del tema con la princesa Zelda, pero, como habrás notado, un poderoso hechizo ha sellado el acceso al castillo...
+¿Según tú, Ganon está detrás de todo esto? ¿Se apoderó de la Trifuerza y encerró a la princesa Zelda?
+Mmm... la situación es más delicada de lo que creía...                                      ¡Hay que hacer algo! ¡Tienes que afrontar a Ganon de nuevo!
+¿Cómo entrar en el castillo? Se me ocurre una idea...
+Como sabes, el brujo Aghanim selló el poder de los siete sabios dentro de siete cristales al intentar romper el sello que mantenía preso a Ganon en el mundo de las tinieblas.
+Ahora bien, aunque hayas resucitado a los descendientes de los sabios tras vencer a Ganon y encontrar la Trifuerza, los cristales han conservado su poder.
+Se hallan en lo más recóndito de los siete palacios. Así que tienes que reunirlos para contrarrestar el hechizo de Ganon.
+Pero será una tarea ardua porque sin duda Ganon ha enviado a sus mejores hombres para proteger los cristales.
+Por cierto, tu armamento deja mucho que desear. Habla con el vendedor de armas y dile que vienes de parte mía. Seguro que te hará un descuento.
+Habla con el vendedor de armas y dile que vienes de parte mía. Sin duda te hará un descuento.
+Tienes que reunir los siete cristales para poder salvar a Zelda y a Hyrule...
+¿Has encontrado los siete cristales? Entonces dirígete al castillo para rescatar a la princesa. Ella sabrá mejor que yo cómo salvar a Hyrule.
+¿Tus armas no tienen efecto sobre Ganon? No te queda otro remedio que obtener Excálibur. Dicen que se encuentra en un palacio oculto. 
+También se rumorea que el camino para conseguir la espada purificadora lleva a un pueblo        infestado de bestias...                         Me pregunto si de verdad existe aquel pueblo...
+Pero me temo que con tu armamento actual no tendrás acceso al palacio. Tal vez deberías hablar con el herrero del pueblo Gerudo...
+¡Llegó la hora de enfrentarte a Ganon y de arrebatarle la Trifuerza!
+Uno de estos tesoros lleva una pieza de corazón. ¿Quieres probar suerte por 10 rupias?          Solo podrás abrir un tesoro, ¿de acuerdo?                      [c=2]Sí[c=0]              No
+Uno de estos tesoros lleva una pieza de corazón. ¿Quieres probar suerte por 10 rupias?          Solo podrás abrir un tesoro, ¿de acuerdo?                      Sí              [c=2]No[c=0]
+Abre el tesoro que quieras.
+Lo siento, ya no me quedan premios.
+Vuelve con una botella vacía y te venderé una   poción roja que restaura los corazones.
+¿Quieres una poción roja por 60 rupias?                                                                        [c=2]Sí[c=0]              No
+¿Quieres una poción roja por 60 rupias?                                                                        Sí              [c=2]No[c=0]
+Gracias, aquí está tu poción.
+Hola, ¿quieres que te sirva algo?
+¡Hic! Dicen que un hada ofrece objetos encantados... ¡hic! a los aventureros que se acercan a ella... ¡Hic!
+¿Qué tal un corazón por 2 rupias?                                                                              [c=2]Sí[c=0]              No
+¿Qué tal un corazón por 2 rupias?                                                                              Sí              [c=2]No[c=0]
+¿Quieres magia por 20 rupias?                                                                                  [c=2]Sí[c=0]              No
+¿Quieres magia por 20 rupias?                                                                                  Sí              [c=2]No[c=0]
+¿5 flechas por 10 rupias?                                                                                      [c=2]Sí[c=0]              No
+¿5 flechas por 10 rupias?                                                                                      Sí              [c=2]No[c=0]
+¿Me compras una bomba por 10 rupias?                                                                           [c=2]Sí[c=0]              No
+¿Me compras una bomba por 10 rupias?                                                                           Sí              [c=2]No[c=0]
+¿Quieres un arco por 1 000 rupias?                                                                             [c=2]Sí[c=0]              No
+¿Quieres un arco por 1 000 rupias?                                                                             Sí              [c=2]No[c=0]
+¿Quieres un arco por 50 rupias?                                                                                [c=2]Sí[c=0]              No
+¿Quieres un arco por 50 rupias?                                                                                Sí              [c=2]No[c=0]
+Por el momento no te hace falta esto.
+Gracias.
+Escoge lo que quieras.
+¿Qué? ¿El jefe te contrató para llevar a cabo   una misión?                                     Bueno, está bien, te haré un descuento sobre el arco.
+Ya me has comprado el arco, no tengo más.
+Gracias... Aunque, en realidad, ¡te hice un regalo!
+¡Vuelve más tarde, que tengo demasiado trabajo!
+¿En qué te puedo ayudar?
+¿Quieres que forja tu espada?                                                                                  [c=2]Sí[c=0]              No
+¿Quieres que forja tu espada?                                                                                  Sí              [c=2]No[c=0]
+¿Deseas mejorar tus guantes?                                                                                   [c=2]Sí[c=0]              No
+¿Deseas mejorar tus guantes?                                                                                   Sí              [c=2]No[c=0]
+¿Quieres mejorar tu arco?                                                                                      [c=2]Sí[c=0]              No
+¿Quieres mejorar tu arco?                                                                                      Sí              [c=2]No[c=0]
+Hola, Link, soy el jefe del pueblo. Deberías hablar con el herrero y  presentarle lo que quieras forjar en tu equipo.
+Me han informado de tu misión, así que me he arreglado con él. Todo será gratis para ti.
+Vuelve con una botella vacía y te venderé una poción verde que restaura la magia.
+¿Quieres una poción verde por 40 rupias?                                                                       [c=2]Sí[c=0]              No
+¿Quieres una poción verde por 40 rupias?                                                                       Sí              [c=2]No[c=0]
+¡Hola! Si quieres hablar con el herrero, vive un poco más lejos.
+Cuando trajiste la paz a Hyrule y unificaste el mundo de la luz con la Tierra Dorada, Zelda pidió en secreto a los espíritus voluntarios que crearan este pueblo para impedir el acceso a un objeto de gran valor.
+Nuestro pueblo fue fundado con el propósito de impedir el acceso al palacio. Así que no dejaré que cualquier aventurero pase por aquí.
+Mmm... ¿Ya encontraste 4 cristales?             Debo reconocer que me impresionas...
+Está bien, te dejaré atravesar el cementerio, pero no me hago responsable de lo que te pueda ocurrir.
+Habla con el guardia al norte del pueblo. Te dejará pasar.
+Sigues vivo...                                  No me lo esperaba.
+El Palacio de la Sombra es el punto de partida  para obtener un objeto legendario. El pueblo    solo sirve para disuadir a los aventureros de no acercarse demasiado.
+¿Así que encontraste la espada?                 Pero no vayas a creer que te pertenece.
+Excálibur forma parte del patrimonio más        preciado de Hyrule, junto con la Trifuerza. Tendrás que dejar la espada en el santuario una vez terminada tu misión.
+Vuelve con una botella vacía y te venderé una poción azul que restaura los corazones y la magia.
+¿Quieres una poción azul por 160 rupias?                                                                       [c=2]Sí[c=0]              No
+¿Quieres una poción azul por 160 rupias?                                                                       Sí              [c=2]No[c=0]
+Los habitantes de este pueblo son espíritus que atendieron la llamada de la princesa Zelda.
+RESULTADOS:
+Tiempo de juego:
+Vidas perdidas: [v=1]
+Vidas perdidas: [v=1]
+Piezas de corazón: [v=1] / 36
+Objetos: [v=1] / 56
+Clases de enemigos derrotados: [v=1] / 46
+¡Completaste el juego al [v=1] %!
+RANGO:
+- Creído
+- Perfeccionista
+- Admirador de Zelda
+- Veterano
+- Novato
+- Maratonista de Hyrule
+- Muerto viviente
+- Kamikaze
+RANGOS:
+Creador / Desarrollador:
+Vincent Jouillat
+Ilustraciones:
+Solène Jouillat
+Mapa de Hyrule:
+Adrien Baptis
+Revisión del texto francés:
+Sabrina Jouillat
+Traducción al inglés:
+Sandrine Gadenne
+Traducción al español:
+Esteban Holguín
+Agradecimientos:
+¡A Nintendo por crear la saga de The Legend of Zelda!
+¡A la comunidad del foro zeldaroth.fr
+por el apoyo que me ha brindado durante varios años!
+- Héroe de Hyrule
