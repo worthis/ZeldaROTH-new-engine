@@ -38,17 +38,17 @@ Keys KeyBinder::getDefaultKey(BindableType type)
     case BT_INVENTAIRE:
         return kReturn;
     case BT_CARTE:
-        return kP;
+        return kTab;
     case BT_MONSTERS:
-        return kO;
+        return kE;
     case BT_ACTION:
-        return kSpace;
+        return kLCtrl;
     case BT_EPEE:
-        return kZ;
+        return kSpace;
     case BT_OBJET:
-        return kX;
+        return kLShift;
     case BT_COURSE:
-        return kShift;
+        return kTab;
     case BT_UP:
         return kUp;
     case BT_DOWN:
@@ -58,7 +58,7 @@ Keys KeyBinder::getDefaultKey(BindableType type)
     case BT_RIGHT:
         return kRight;
     case BT_CAMERA:
-        return kCtrl;
+        return kBackspace;
     default:
         return kUp;
     }
@@ -232,14 +232,23 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
     case kTab:
         tmp = TextManager::getInstance()->getText(43);
         break;
-    case kShift:
-        tmp = TextManager::getInstance()->getText(44);
+    case kLShift:
+        os << "LSHIFT";
         break;
-    case kCtrl:
-        os << "CTRL";
+    case kRShift:
+        os << "RSHIFT";
         break;
-    case kAlt:
-        os << "ALT";
+    case kLCtrl:
+        os << "LCTRL";
+        break;
+    case kRCtrl:
+        os << "RCTRL";
+        break;
+    case kLAlt:
+        os << "LALT";
+        break;
+    case kRAlt:
+        os << "RALT";
         break;
     case kSpace:
         tmp = TextManager::getInstance()->getText(45);
@@ -292,6 +301,9 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
     case kF1:
         os << "F1";
         break;
+    case kBackspace:
+        os << "BACKSPACE";
+        break;
     default:
         os << "?";
         break;
@@ -308,7 +320,6 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
 
 Action *KeyBinder::getActionForGame(Event *event)
 {
-
     action.setAction(UP, event->isDown(map[BT_UP]));
     action.setAction(DOWN, event->isDown(map[BT_DOWN]));
     action.setAction(LEFT, event->isDown(map[BT_LEFT]));
@@ -342,7 +353,7 @@ Action *KeyBinder::getActionForGame(Event *event)
 
     action.setAction(CAMERA, event->isPushed(map[BT_CAMERA]) || event->isDown(map[BT_CAMERA]));
 
-    action.setAction(AIDE, event->isPushed(kF1));
+    action.setAction(AIDE, event->isPushed(kRCtrl));
 
     return &action;
 }
