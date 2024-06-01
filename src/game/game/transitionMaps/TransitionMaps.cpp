@@ -11,8 +11,7 @@ TransitionMaps::TransitionMaps() : offset(0), offsetMax(0), offsetX(0), offsetY(
 {
     filterForest = ResourceManager::getInstance()->loadImage("data/images/tileset/foret.png");
 
-    SDL_SetTextureBlendMode(filterForest->getImage(), SDL_BLENDMODE_BLEND);
-    SDL_SetTextureAlphaMod(filterForest->getImage(), 128);
+    SDL_SetAlpha(filterForest->getImage(), SDL_SRCALPHA, 128);
 }
 
 TransitionMaps::~TransitionMaps()
@@ -37,7 +36,7 @@ void TransitionMaps::loop()
             if (alpha > 128)
                 alpha = 128;
         }
-        SDL_SetTextureAlphaMod(filterForest->getImage(), alpha);
+        SDL_SetAlpha(filterForest->getImage(), SDL_SRCALPHA, alpha);
     }
 
     offset += 8;
@@ -121,7 +120,7 @@ void TransitionMaps::loop()
         if (alpha != 128)
         {
             alpha = 128;
-            SDL_SetTextureAlphaMod(filterForest->getImage(), alpha);
+            SDL_SetAlpha(filterForest->getImage(), SDL_SRCALPHA, alpha);
         }
         MainController::getInstance()->getGameController()->setStep(GAME_MAIN);
     }
@@ -259,7 +258,7 @@ void TransitionMaps::init()
             alpha = 128;
         if (map2->getId() == 1)
             alpha = 0;
-        SDL_SetTextureAlphaMod(filterForest->getImage(), alpha);
+        SDL_SetAlpha(filterForest->getImage(), SDL_SRCALPHA, alpha);
     }
 }
 
