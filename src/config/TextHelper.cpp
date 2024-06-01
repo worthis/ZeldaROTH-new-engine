@@ -32,6 +32,9 @@ void TextHelper::setLanguage(int i)
     case 2:
         setTextfile("data/texts/spanish.txt");
         break;
+    case 3:
+        setTextfile("data/texts/russian.txt");
+        break;
     default:
         setTextfile("data/texts/english.txt");
         break;
@@ -163,5 +166,10 @@ string TextHelper::getCommonValue(string tag)
     {
         return "[/center]";
     }
+    else if (tag == "br")
+    {
+        return "[br]";
+    }
+
     return "";
 }
