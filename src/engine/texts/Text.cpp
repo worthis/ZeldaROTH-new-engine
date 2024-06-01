@@ -18,10 +18,9 @@ void Text::display(int x, int y, int l)
 
 void Text::displayInternal(int x, int y, int l)
 {
-
     int space = TextManager::getInstance()->getWSpace();
 
-    if (l == -1)
+    if (l < 0)
     {
         l = length;
     }
@@ -43,6 +42,10 @@ void Text::displayInternal(int x, int y, int l)
                 else if (text[begin + 1] == '/' && text[i - 1] == 'r')
                 {
                     // /center, do nothing
+                }
+                else if (text[begin + 1] == 'b' && text[i - 1] == 'r')
+                {
+                    // br, do nothing
                 }
                 else
                 {
@@ -112,9 +115,11 @@ void Text::displayBox(int x, int y, int l)
                     center = sizeToCenter(inBox, i + 1);
                     countRow += (nbRows - center) / 2;
                 }
-                else if (text[begin + 1] == '/' && text[i - 1] == 'r')
+                else if ((text[begin + 1] == '/' && text[i - 1] == 'r') ||
+                         (text[begin + 1] == 'b' && text[i - 1] == 'r'))
                 {
-                    // /center -> go to the next line
+                    // /center -> go to the next line or
+                    // br -> go to the next line
                     countRow = 0;
                     countLine++;
                 }
@@ -292,7 +297,6 @@ void Text::computeLength()
 
 void Text::cutBox()
 {
-
     lengthInBox = 0;
 
     int wSpace = TextManager::getInstance()->getWSpace();
@@ -313,7 +317,6 @@ void Text::cutBox()
         {
             if (text[i] == ']')
             {
-
                 if (text[begin + 1] == 'c' && text[i - 1] == 'r')
                 {
                     // center -> add space until the end of the line and center text
@@ -331,9 +334,11 @@ void Text::cutBox()
                     center = sizeToCenter(inBox, i + 1);
                     countRow += (nbRows - center) / 2;
                 }
-                else if (text[begin + 1] == '/' && text[i - 1] == 'r')
+                else if ((text[begin + 1] == '/' && text[i - 1] == 'r') ||
+                         (text[begin + 1] == 'b' && text[i - 1] == 'r'))
                 {
-                    // /center -> go to the next line
+                    // /center -> go to the next line or
+                    // br -> go to the next line
                     countRow = 0;
                     countLine++;
                     if (countLine >= nbLines && i + 1 < text.length())
@@ -390,7 +395,7 @@ void Text::cutBox()
         }
     }
     inBox = text;
-    outBox = "";
+    outBox.clear();
 }
 
 int Text::wordSize(string txt, unsigned int i)
