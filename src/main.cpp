@@ -19,40 +19,46 @@
 
 #include "game/MainController.h"
 
-int main(int argc, char** argv) {
-    if (argc && argv); //pour éviter un warning.....
+int main(int argc, char **argv)
+{
+    if (argc && argv)
+        ; // pour ï¿½viter un warning.....
 
     std::srand(std::time(NULL));
 
-    WindowManager* windowManager = WindowManager::getInstance();
-    if (windowManager->init() < 0) {
+    WindowManager *windowManager = WindowManager::getInstance();
+    if (windowManager->init() < 0)
+    {
         exit(-1);
     }
 
-    ConfigurationManager* configurationManager = ConfigurationManager::getInstance();
+    ConfigurationManager *configurationManager = ConfigurationManager::getInstance();
     configurationManager->init("config/system.dat", "config/keys.dat", "config/joystick.dat");
 
-    if (windowManager->createWindow("Return of the Hylian", "data/images/logos/triforce.ico", configurationManager->isFull()) < 0) {
+    if (windowManager->createWindow("Return of the Hylian", "data/images/logos/triforce.ico", configurationManager->isFull()) < 0)
+    {
         exit(-1);
     }
 
     configurationManager->initTexts();
 
-    MainController* controller = MainController::getInstance();
+    MainController *controller = MainController::getInstance();
 
     controller->init();
 
     controller->setInternalStep(LOGO);
 
-    Event* event;
+    Event *event;
 
-    while(windowManager->isOpened()) {
+    while (windowManager->isOpened())
+    {
 
         event = windowManager->getEvent();
 
         controller->control(event);
 
-        if (event->isPushed(QUIT) || event->isPushed(kEscape) || event->isPushed(QUIT_FORCED)) {
+        if (event->isPushed(QUIT) || event->isPushed(kEscape) || event->isPushed(QUIT_FORCED))
+        {
 
             windowManager->close();
             continue;

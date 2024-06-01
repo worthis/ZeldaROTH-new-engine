@@ -15,27 +15,26 @@
 
 #include "../../../engine/util/time/Chrono.h"
 
-class ObjBomb : public Portable {
-    public :
-        ObjBomb(int x, int y);
-        ~ObjBomb();
+class ObjBomb : public Portable
+{
+public:
+    ObjBomb(int x, int y);
+    ~ObjBomb();
 
-        void portLoop();
-        void draw(int offsetX, int offsetY);
+    void portLoop();
+    void draw(int offsetX, int offsetY);
 
-        void impact();
+    void impact();
 
-        void reset();
-        bool isResetable();
+    void reset();
+    bool isResetable();
 
-    private :
+private:
+    int anim;
+    int animMax;
+    int vanim;
 
-        int anim;
-        int animMax;
-        int vanim;
-
-        Chrono chrono;
-
+    Chrono chrono;
 };
 
-#endif  // ObjBomb.h
+#endif // ObjBomb.h

@@ -17,39 +17,38 @@
 
 #include "../types/Ennemi.h"
 
-class Ennemi050 : public Ennemi {
-    public :
-        Ennemi050(int x, int y);
-        ~Ennemi050();
+class Ennemi050 : public Ennemi
+{
+public:
+    Ennemi050(int x, int y);
+    ~Ennemi050();
 
-        void ennLoop();
-        void draw(int offsetX, int offsetY);
+    void ennLoop();
+    void draw(int offsetX, int offsetY);
 
-        int getX();
-        int getY();
+    int getX();
+    int getY();
 
-        BoundingBox* getBoundingBox();
+    BoundingBox *getBoundingBox();
 
-        void reset();
-        bool isResetable();
+    void reset();
+    bool isResetable();
 
-        bool hasEffect(TypeAttack type, TypeEffect effect, Direction dir);
+    bool hasEffect(TypeAttack type, TypeEffect effect, Direction dir);
 
-    protected :
+protected:
+    void giveItem(int x, int y);
 
-        void giveItem(int x, int y);
+private:
+    int anim;
+    int animMax;
+    int vanim;
 
-    private :
+    WImage *image;
 
-        int anim;
-        int animMax;
-        int vanim;
+    Chrono chrono;
 
-        WImage* image;
-
-        Chrono chrono;
-
-        BoundingBox box;
+    BoundingBox box;
 };
 
-#endif  // Ennemi050.h
+#endif // Ennemi050.h

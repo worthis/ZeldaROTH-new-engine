@@ -5,19 +5,23 @@
 #include "../../../engine/window/WindowManager.h"
 #include "../../../engine/resources/ResourceManager.h"
 
-//#include "../objects/Pnj.h"
+// #include "../objects/Pnj.h"
 
-AnimationInGame::AnimationInGame() : id(0), anim(0), running(false)  {
+AnimationInGame::AnimationInGame() : id(0), anim(0), running(false)
+{
     image = ResourceManager::getInstance()->loadImage("data/images/intro/nuit.png");
 }
 
-AnimationInGame::~AnimationInGame() {
+AnimationInGame::~AnimationInGame()
+{
     ResourceManager::getInstance()->free(image);
 }
 
-void AnimationInGame::testAnim() {
+void AnimationInGame::testAnim()
+{
 
-    if (running) {
+    if (running)
+    {
         return;
     }
 
@@ -26,18 +30,21 @@ void AnimationInGame::testAnim() {
     link = MainController::getInstance()->getGameController()->getSceneController()->getScene()->getLink();
     map = MainController::getInstance()->getGameController()->getSceneController()->getScene()->getMap();
 
-    switch (avancement) {
-        case AV_ZELDA_MARCHE :
-            startAnim(1);
-            break;
-        case AV_START :
-            startAnim(2);
-            break;
-        default : break;
+    switch (avancement)
+    {
+    case AV_ZELDA_MARCHE:
+        startAnim(1);
+        break;
+    case AV_START:
+        startAnim(2);
+        break;
+    default:
+        break;
     }
 }
 
-void AnimationInGame::startAnim(int i) {
+void AnimationInGame::startAnim(int i)
+{
     id = i;
 
     link = MainController::getInstance()->getGameController()->getSceneController()->getScene()->getLink();
@@ -48,43 +55,52 @@ void AnimationInGame::startAnim(int i) {
     lcamera = false;
     llink = false;
 
-    switch (id) {
-        case 1 :
-            lmap = true;
-            break;
-        case 2 :
-            AudioManager::getInstance()->stopMusic();
-            MainController::getInstance()->getGameController()->displayText(81);
-            break;
-        default : break;
+    switch (id)
+    {
+    case 1:
+        lmap = true;
+        break;
+    case 2:
+        AudioManager::getInstance()->stopMusic();
+        MainController::getInstance()->getGameController()->displayText(81);
+        break;
+    default:
+        break;
     }
 
     running = true;
     anim = 0;
 }
 
-void AnimationInGame::loop() {
-    if (!running) {
+void AnimationInGame::loop()
+{
+    if (!running)
+    {
         return;
     }
 }
 
-void AnimationInGame::draw() {
-    if (!running) {
+void AnimationInGame::draw()
+{
+    if (!running)
+    {
         return;
     }
 
-    switch (id) {
-        case 2 :
-            WindowManager::getInstance()->draw(image, 0, 0, 320, 240, 0, 0);
-            break;
-        default :
-            break;
+    switch (id)
+    {
+    case 2:
+        WindowManager::getInstance()->draw(image, 0, 0, 320, 240, 0, 0);
+        break;
+    default:
+        break;
     }
 }
 
-void AnimationInGame::drawAfterHud() {
-    if (!running) {
+void AnimationInGame::drawAfterHud()
+{
+    if (!running)
+    {
         return;
     }
 
@@ -95,33 +111,42 @@ void AnimationInGame::drawAfterHud() {
     }*/
 }
 
-int AnimationInGame::getSpecialMusicId() {
-    if (!running) {
+int AnimationInGame::getSpecialMusicId()
+{
+    if (!running)
+    {
         return 0;
     }
 
-    switch (id) {
-        //case 1 : return 2;
-        default : return 0;
+    switch (id)
+    {
+    // case 1 : return 2;
+    default:
+        return 0;
     }
 }
 
-bool AnimationInGame::isRunning() {
+bool AnimationInGame::isRunning()
+{
     return running;
 }
 
-bool AnimationInGame::loopMap() {
+bool AnimationInGame::loopMap()
+{
     return !running || lmap;
 }
 
-bool AnimationInGame::loopCamera() {
+bool AnimationInGame::loopCamera()
+{
     return !running || lcamera;
 }
 
-bool AnimationInGame::loopLink() {
+bool AnimationInGame::loopLink()
+{
     return !running || llink;
 }
 
-void AnimationInGame::stop() {
+void AnimationInGame::stop()
+{
     running = false;
 }

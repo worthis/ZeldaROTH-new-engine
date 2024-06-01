@@ -10,32 +10,39 @@
 
 #include "../../GlobalSave.h"
 
-Help::Help() : page(0) {
+Help::Help() : page(0)
+{
     image = ResourceManager::getInstance()->loadImage("data/images/menus/cadres.png");
-    for (int i = 0; i < 24; i++) {
+    for (int i = 0; i < 24; i++)
+    {
         texts[i] = 0;
     }
 }
 
-Help::~Help() {
+Help::~Help()
+{
     ResourceManager::getInstance()->free(image);
-    for (int i = 0; i < 24; i++) {
+    for (int i = 0; i < 24; i++)
+    {
         delete texts[i];
     }
 }
 
-void Help::init() {
+void Help::init()
+{
     page = 0;
 
-    for (int i = 0; i < 24; i++) {
+    for (int i = 0; i < 24; i++)
+    {
         delete texts[i];
     }
 
-    for (int i = 0; i < 15; i++) {
+    for (int i = 0; i < 15; i++)
+    {
         texts[i] = TextManager::getInstance()->getText(132 + i);
     }
 
-    KeyBinder* kb = KeyBinder::getInstance();
+    KeyBinder *kb = KeyBinder::getInstance();
     texts[15] = kb->getTextForType(BT_EPEE);
     texts[16] = kb->getTextForType(BT_ACTION);
     texts[17] = kb->getTextForType(BT_OBJET);
@@ -45,66 +52,77 @@ void Help::init() {
     texts[21] = kb->getTextForType(BT_MONSTERS);
     texts[22] = kb->getTextForType(BT_CAMERA);
     texts[23] = kb->getTextForType(BT_OPTIONS);
-
 }
 
-void Help::cadre(int x, int y, int w, int h) {
+void Help::cadre(int x, int y, int w, int h)
+{
 
     // center
-    for (int j = y + 16; j < y + h - 16; j += 16) {
-        for (int i = x + 16; i < x + w - 16; i += 16) {
+    for (int j = y + 16; j < y + h - 16; j += 16)
+    {
+        for (int i = x + 16; i < x + w - 16; i += 16)
+        {
             WindowManager::getInstance()->draw(image, 16, 64, 16, 16, i, j);
         }
     }
 
-    //top and bottom
-    for (int i = x + 16; i < x + w - 16; i += 16) {
+    // top and bottom
+    for (int i = x + 16; i < x + w - 16; i += 16)
+    {
         WindowManager::getInstance()->draw(image, 16, 48, 16, 16, i, y);
         WindowManager::getInstance()->draw(image, 16, 80, 16, 16, i, y + h - 16);
     }
 
-    //left and right
-    for (int j = y + 16; j < y + h - 16; j += 16) {
+    // left and right
+    for (int j = y + 16; j < y + h - 16; j += 16)
+    {
         WindowManager::getInstance()->draw(image, 0, 64, 16, 16, x, j);
         WindowManager::getInstance()->draw(image, 32, 64, 16, 16, x + w - 16, j);
     }
 
-    //top left corner
+    // top left corner
     WindowManager::getInstance()->draw(image, 0, 48, 16, 16, x, y);
 
-    //top right corner
+    // top right corner
     WindowManager::getInstance()->draw(image, 32, 48, 16, 16, x + w - 16, y);
 
-    //bottom left corner
+    // bottom left corner
     WindowManager::getInstance()->draw(image, 0, 80, 16, 16, x, y + h - 16);
 
-    //bottom right corner
+    // bottom right corner
     WindowManager::getInstance()->draw(image, 32, 80, 16, 16, x + w - 16, y + h - 16);
 }
 
-void Help::handleActions(Action* action) {
-    if (action->isAction(AIDE)) {
+void Help::handleActions(Action *action)
+{
+    if (action->isAction(AIDE))
+    {
         MainController::getInstance()->getGameController()->setStep(GAME_MAIN);
         AudioManager::getInstance()->playSound(TS_MENU2);
         return;
     }
-    if (action->isAction(PUSH_LEFT) && page > 0) {
+    if (action->isAction(PUSH_LEFT) && page > 0)
+    {
         page--;
         AudioManager::getInstance()->playSound(TS_MENU3);
         return;
     }
-    if (action->isAction(PUSH_RIGHT) && page < 1) {
+    if (action->isAction(PUSH_RIGHT) && page < 1)
+    {
         page++;
         AudioManager::getInstance()->playSound(TS_MENU3);
         return;
     }
 }
 
-void Help::draw() {
+void Help::draw()
+{
     int letterSize = TextManager::getInstance()->getWSpace();
 
-    for (int j = 0; j < 15; j++) {
-        for (int i = 0; i < 20; i++) {
+    for (int j = 0; j < 15; j++)
+    {
+        for (int i = 0; i < 20; i++)
+        {
             WindowManager::getInstance()->draw(image, 16, 16, 16, 16, i * 16, j * 16);
         }
     }
@@ -114,7 +132,7 @@ void Help::draw() {
 
     // title
 
-    Text* title = texts[page];
+    Text *title = texts[page];
     int size = title->getLength() * letterSize;
     int blocs = (size + 15) / 16;
 
@@ -123,7 +141,8 @@ void Help::draw() {
     WindowManager::getInstance()->draw(image, 0, 16, 16, 16, x, 16);
     WindowManager::getInstance()->draw(image, 0, 32, 16, 16, x, 32);
 
-    for (int i = 0; i <= blocs; i++) {
+    for (int i = 0; i <= blocs; i++)
+    {
         x += 16;
         WindowManager::getInstance()->draw(image, 16, 0, 16, 16, x, 0);
         WindowManager::getInstance()->draw(image, 16, 64, 16, 16, x, 16);
@@ -139,17 +158,19 @@ void Help::draw() {
 
     // footer
 
-    Text* footer = texts[2 + page];
+    Text *footer = texts[2 + page];
     footer->display(24, 208);
 
     // content
 
-    Scene* scene = MainController::getInstance()->getGameController()->getSceneController()->getScene();
-    Link* link = scene->getLink();
+    Scene *scene = MainController::getInstance()->getGameController()->getSceneController()->getScene();
+    Link *link = scene->getLink();
     int y = 64;
-    if (page == 0) {
+    if (page == 0)
+    {
 
-        if (link->getEpee()) {
+        if (link->getEpee())
+        {
             texts[4]->display(24, y);
             size = texts[15]->getLength() * letterSize;
             texts[15]->display(16 + 288 - 10 - size, y);
@@ -185,29 +206,32 @@ void Help::draw() {
         y += 16;
     }
 
-    if (link->getInventory()->hasObject(ENCYCLOPEDIE) && ((y < 176 && page == 0) || (link->getEpee() && page == 1))) {
+    if (link->getInventory()->hasObject(ENCYCLOPEDIE) && ((y < 176 && page == 0) || (link->getEpee() && page == 1)))
+    {
         texts[11]->display(24, y);
         size = texts[21]->getLength() * letterSize;
         texts[21]->display(16 + 288 - 10 - size, y);
         y += 16;
     }
 
-    if ((y < 176 && page == 0) || (link->getEpee() && page == 1)) {
+    if ((y < 176 && page == 0) || (link->getEpee() && page == 1))
+    {
         texts[12]->display(24, y);
         size = texts[22]->getLength() * letterSize;
         texts[22]->display(16 + 288 - 10 - size, y);
         y += 16;
     }
 
-    if ((y < 176 && page == 0) || ((link->getEpee() || link->getInventory()->hasObject(ENCYCLOPEDIE)) && page == 1)) {
+    if ((y < 176 && page == 0) || ((link->getEpee() || link->getInventory()->hasObject(ENCYCLOPEDIE)) && page == 1))
+    {
         texts[13]->display(24, y);
         size = texts[23]->getLength() * letterSize;
         texts[23]->display(16 + 288 - 10 - size, y);
         y += 16;
-
     }
 
-    if (y < 176) {
+    if (y < 176)
+    {
         texts[14]->display(24, y);
         y += 16;
     }

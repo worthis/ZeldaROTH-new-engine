@@ -12,7 +12,8 @@
 
 #include "../effects/FumeeBlanche.h"
 
-Ennemi050::Ennemi050(int i, int j) : anim(0), animMax(1), vanim(180) {
+Ennemi050::Ennemi050(int i, int j) : anim(0), animMax(1), vanim(180)
+{
     image = ResourceManager::getInstance()->loadImage("data/images/ennemis/ennemi50.png", true);
     chrono.reset();
 
@@ -25,8 +26,8 @@ Ennemi050::Ennemi050(int i, int j) : anim(0), animMax(1), vanim(180) {
     width = 52;
     height = 36;
 
-    box.setX(x+10);
-    box.setY(y+4);
+    box.setX(x + 10);
+    box.setY(y + 4);
     box.setW(32);
     box.setH(32);
 
@@ -45,11 +46,13 @@ Ennemi050::Ennemi050(int i, int j) : anim(0), animMax(1), vanim(180) {
     forceEnn = 20;
 }
 
-Ennemi050::~Ennemi050() {
+Ennemi050::~Ennemi050()
+{
     ResourceManager::getInstance()->free(image);
 }
 
-void Ennemi050::reset() {
+void Ennemi050::reset()
+{
     Ennemi::reset();
     chrono.reset();
     x = startX;
@@ -59,14 +62,16 @@ void Ennemi050::reset() {
     checkPosition();
 }
 
-bool Ennemi050::isResetable() {
+bool Ennemi050::isResetable()
+{
     return alive;
 }
 
-void Ennemi050::ennLoop() {
+void Ennemi050::ennLoop()
+{
 
     // retrieve target position ( = link ^^)
-    Link* link = getLink();
+    Link *link = getLink();
 
     int dstX = link->getX() + 8;
     int dstY = link->getY() + 24;
@@ -77,18 +82,22 @@ void Ennemi050::ennLoop() {
 
     testDegatOnLink(getBoundingBox(), direction, forceEnn, TA_PHYSIC, TE_NORMAL);
 
-
-    if (chrono.getElapsedTime() >= vanim) {
-        if (!gel) anim++;
-        if (anim > animMax) {
+    if (chrono.getElapsedTime() >= vanim)
+    {
+        if (!gel)
+            anim++;
+        if (anim > animMax)
+        {
             anim = 0;
         }
         chrono.reset();
     }
 }
 
-void Ennemi050::draw(int offsetX, int offsetY) {
-    if (!alive) {
+void Ennemi050::draw(int offsetX, int offsetY)
+{
+    if (!alive)
+    {
         return;
     }
 
@@ -98,29 +107,33 @@ void Ennemi050::draw(int offsetX, int offsetY) {
     WindowManager::getInstance()->draw(image, direction == N ? 0 : width, anim * height, width, height, dstX, dstY);
 }
 
-int Ennemi050::getX() {
+int Ennemi050::getX()
+{
     return x;
 }
 
-int Ennemi050::getY() {
+int Ennemi050::getY()
+{
     return y;
 }
 
-BoundingBox* Ennemi050::getBoundingBox() {
-    box.setX(x+10);
-    box.setY(y+4);
+BoundingBox *Ennemi050::getBoundingBox()
+{
+    box.setX(x + 10);
+    box.setY(y + 4);
     return &box;
 }
 
-bool Ennemi050::hasEffect(TypeAttack type, TypeEffect effect, Direction dir) {
-    Link* link = getLink();
-    return ((type == TA_SWORD || type == TA_SWORD_HOLD) && link->getEpee() >= 5)
-        || (type == TA_ARROW && link->getInventory()->hasObject(ARC_FEE));
+bool Ennemi050::hasEffect(TypeAttack type, TypeEffect effect, Direction dir)
+{
+    Link *link = getLink();
+    return ((type == TA_SWORD || type == TA_SWORD_HOLD) && link->getEpee() >= 5) || (type == TA_ARROW && link->getInventory()->hasObject(ARC_FEE));
 }
 
-void Ennemi050::giveItem(int x, int y) {
+void Ennemi050::giveItem(int x, int y)
+{
     AudioManager::getInstance()->playSound(TS_KILLENNEMY);
-    Map* map = MainController::getInstance()->getGameController()->getSceneController()->getScene()->getMap();
+    Map *map = MainController::getInstance()->getGameController()->getSceneController()->getScene()->getMap();
     map->addEffect(new FumeeBlanche(x, y));
     map->addItem(ItemHelper::getInstance()->createItem(TI_TRIFORCE, x, y));
 }

@@ -29,132 +29,131 @@
 
 #include "MapInitializer.h"
 
-#define NB_IMAGES           3
+#define NB_IMAGES 3
 
-class Map {
-    public :
-        Map(int level, Metronome* metronome);
-        ~Map();
+class Map
+{
+public:
+    Map(int level, Metronome *metronome);
+    ~Map();
 
-        void launch();
-        void reset();
-        void load();
+    void launch();
+    void reset();
+    void load();
 
-        void launchRoom();
-        BoundingBox* getBounds();
-        void resetRoom();
+    void launchRoom();
+    BoundingBox *getBounds();
+    void resetRoom();
 
-        void loop();
-        void draw(List* toDraw, BoundingBox* box, int dstX = 0, int dstY = 0);
+    void loop();
+    void draw(List *toDraw, BoundingBox *box, int dstX = 0, int dstY = 0);
 
-        int getW();
-        int getH();
+    int getW();
+    int getH();
 
-        int getId();
+    int getId();
 
-        short getMur(int x, int y); // returns mur value from coordinatess
-        short getSol(int x, int y); // returns sol value from coordinatess
+    short getMur(int x, int y); // returns mur value from coordinatess
+    short getSol(int x, int y); // returns sol value from coordinatess
 
-        void setSol(int x, int y, short s);
-        void setSol(int x, int y, short s, Collision c);
-        void setSol(int x, int y, int w, int h, short s, Collision c);
+    void setSol(int x, int y, short s);
+    void setSol(int x, int y, short s, Collision c);
+    void setSol(int x, int y, int w, int h, short s, Collision c);
 
-        void addEffect(Effect* effect);
-        void addEnnemi(Ennemi* ennemi);
-        void addItem(Item* item);
-        void addProjectile(Projectile* projectile);
-        void addObject(Object* object);
+    void addEffect(Effect *effect);
+    void addEnnemi(Ennemi *ennemi);
+    void addItem(Item *item);
+    void addProjectile(Projectile *projectile);
+    void addObject(Object *object);
 
-        void removeObject(Object* object);
+    void removeObject(Object *object);
 
-        bool checkCollisions(BoundingBox* box, Collisionable* object, bool checkEnnemis, bool ignoreNotIdle, bool withAvoid, bool onlyBox,
-                             bool checkObjects = true, int safeX = 0, int safeY = 0, int safeW = -1, int safeH = -1, bool checkDanger = false);
+    bool checkCollisions(BoundingBox *box, Collisionable *object, bool checkEnnemis, bool ignoreNotIdle, bool withAvoid, bool onlyBox,
+                         bool checkObjects = true, int safeX = 0, int safeY = 0, int safeW = -1, int safeH = -1, bool checkDanger = false);
 
-        bool testDegat(BoundingBox* box, Direction dir, int force, TypeAttack type, TypeEffect effect, bool onEnnemis = true);
+    bool testDegat(BoundingBox *box, Direction dir, int force, TypeAttack type, TypeEffect effect, bool onEnnemis = true);
 
-        bool testTransition(int x, int y);
-        bool testInnerTransition(int x, int y);
-        bool testTeleport(int x, int y);
+    bool testTransition(int x, int y);
+    bool testInnerTransition(int x, int y);
+    bool testTeleport(int x, int y);
 
-        void testAnim(int x, int y, Direction dir);
-        void testAnimRoom();
+    void testAnim(int x, int y, Direction dir);
+    void testAnimRoom();
 
-        void ouvrePorteMaison(int x, int y);
+    void ouvrePorteMaison(int x, int y);
 
-        void activateInter(int x, int y, bool sound = true);
-        bool desactivateInter(int x, int y, bool sound = true);
-        void allumeTorche(int x, int y);
-        void eteintTorche(int x, int y);
+    void activateInter(int x, int y, bool sound = true);
+    bool desactivateInter(int x, int y, bool sound = true);
+    void allumeTorche(int x, int y);
+    void eteintTorche(int x, int y);
 
-        void pickUpItems(BoundingBox* box);
-        Item* getItem(BoundingBox* box);
-        void killItems(BoundingBox* box);
-        void killEnnemis(BoundingBox* box);
-        Portable* pickUpObject(BoundingBox* box);
-        void pushObject(BoundingBox* box, Direction dir);
+    void pickUpItems(BoundingBox *box);
+    Item *getItem(BoundingBox *box);
+    void killItems(BoundingBox *box);
+    void killEnnemis(BoundingBox *box);
+    Portable *pickUpObject(BoundingBox *box);
+    void pushObject(BoundingBox *box, Direction dir);
 
-        bool tryToTalk(BoundingBox* box, Direction dir);
+    bool tryToTalk(BoundingBox *box, Direction dir);
 
-        void permuteBlocs(int step); // 0 = orange up - blue down
+    void permuteBlocs(int step); // 0 = orange up - blue down
 
-        int nbEnnemis();
+    int nbEnnemis();
 
-        void ouvrePorte(int x, int y, int type);
-        void fermePorte(int x, int y, int type);
+    void ouvrePorte(int x, int y, int type);
+    void fermePorte(int x, int y, int type);
 
-        // game map 30
-        void closeChests();
-        void openChests(int x, int y);
-        bool areChestsClosed();
+    // game map 30
+    void closeChests();
+    void openChests(int x, int y);
+    bool areChestsClosed();
 
-        int getEtage();
+    int getEtage();
 
-        void addCoffre(int x, int y, TypeItem type, int id);
+    void addCoffre(int x, int y, TypeItem type, int id);
 
-        void enervePoules();
+    void enervePoules();
 
-        void switchSphere(bool blue);
+    void switchSphere(bool blue);
 
-        void displayInterruptor(int x, int y);
+    void displayInterruptor(int x, int y);
 
-        void drawSol(int srcX, int srcY, int srcW, int srcH, int dstX, int dstY);
-        void drawAir(int srcX, int srcY, int srcW, int srcH, int dstX, int dstY);
+    void drawSol(int srcX, int srcY, int srcW, int srcH, int dstX, int dstY);
+    void drawAir(int srcX, int srcY, int srcW, int srcH, int dstX, int dstY);
 
-    private :
+private:
+    void init();
 
-        void init();
+    void loadFromFile();
 
-        void loadFromFile();
+    int getMotif(int value);
 
-        int getMotif(int value);
+    void disablePiege();
 
-        void disablePiege();
+    Metronome *metronome;
+    int map;
+    int w; // size
+    int h;
 
-        Metronome* metronome;
-        int map;
-        int w; // size
-        int h;
+    int music;
 
-        int music;
+    short sol[MAX_CASE_X][MAX_CASE_Y];
+    short air[MAX_CASE_X][MAX_CASE_Y];
+    short mur[MAX_CASE_X * 2][MAX_CASE_Y * 2];
 
-        short sol[MAX_CASE_X][MAX_CASE_Y];
-        short air[MAX_CASE_X][MAX_CASE_Y];
-        short mur[MAX_CASE_X * 2][MAX_CASE_Y * 2];
+    WImage *images[NB_IMAGES];
 
-        WImage* images[NB_IMAGES];
+    Quadtree *effects;
+    Quadtree *ennemis;
+    Quadtree *items;
+    Quadtree *projectiles;
+    Quadtree *objects;
 
-        Quadtree* effects;
-        Quadtree* ennemis;
-        Quadtree* items;
-        Quadtree* projectiles;
-        Quadtree* objects;
+    MapInitializer *initializer;
 
-        MapInitializer* initializer;
+    BoundingBox bounds; // room limits
 
-        BoundingBox bounds; // room limits
-
-        int oldMetronomeValue;
-
+    int oldMetronomeValue;
 };
 
-#endif  // Map.h
+#endif // Map.h

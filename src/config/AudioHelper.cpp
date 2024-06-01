@@ -1,56 +1,96 @@
 #include "AudioHelper.h"
 
-AudioHelper::AudioHelper() : sounds(0) {
+AudioHelper::AudioHelper() : sounds(0)
+{
 }
 
-AudioHelper::~AudioHelper() {
-    if (sounds != 0) deleteSounds();
+AudioHelper::~AudioHelper()
+{
+    if (sounds != 0)
+        deleteSounds();
 }
 
-string AudioHelper::getMusicName(int id) {
-    switch (id) {
-        case 0 : return "data/musics/Titre.mid";
-        case 1 : return "data/musics/Fee.mid";
-        case 2 : return "data/musics/Opening.mid";
-        case 3 : return "data/musics/Mort.mid";
-        case 4 : return "data/musics/Foret.mid";
-        case 5 : return "data/musics/Plaine.mid";
-        case 6 : return "data/musics/Lac.mid";
-        case 7 : return "data/musics/Cocorico.mid";
-        case 8 : return "data/musics/Chateau.mid";
-        case 9 : return "data/musics/Mont.mid";
-        case 10 : return "data/musics/Desert.mid";
-        case 11 : return "data/musics/Ombre.mid";
-        case 12 : return "data/musics/Feu.mid";
-        case 13 : return "data/musics/Secret.mid";
-        case 14 : return "data/musics/Donjon1.mid";
-        case 15 : return "data/musics/Donjon2.mid";
-        case 16 : return "data/musics/Boss.mid";
-        case 17 : return "data/musics/DDesert.mid";
-        case 18 : return "data/musics/DSecret.mid";
-        case 19 : return "data/musics/Epee.mid";
-        case 20 : return "data/musics/DFinal.mid";
-        case 21 : return "data/musics/BossF.mid";
-        case 22 : return "data/musics/Zelda.mid";
-        case 23 : return "data/musics/End.mid";
-        case 24 : return "data/musics/Cave.mid";
-        case 25 : return "data/musics/Home.mid";
-        case 26 : return "data/musics/Maison.mid";
-        case 27 : return "data/musics/Maire.mid";
-        case 28 : return "data/musics/Jeu.mid";
-        case 29 : return "data/musics/Potion.mid";
-        case 30 : return "data/musics/Bar.mid";
-        case 31 : return "data/musics/Magasin.mid";
-        default : return "";
+string AudioHelper::getMusicName(int id)
+{
+    switch (id)
+    {
+    case 0:
+        return "data/musics/Titre.mid";
+    case 1:
+        return "data/musics/Fee.mid";
+    case 2:
+        return "data/musics/Opening.mid";
+    case 3:
+        return "data/musics/Mort.mid";
+    case 4:
+        return "data/musics/Foret.mid";
+    case 5:
+        return "data/musics/Plaine.mid";
+    case 6:
+        return "data/musics/Lac.mid";
+    case 7:
+        return "data/musics/Cocorico.mid";
+    case 8:
+        return "data/musics/Chateau.mid";
+    case 9:
+        return "data/musics/Mont.mid";
+    case 10:
+        return "data/musics/Desert.mid";
+    case 11:
+        return "data/musics/Ombre.mid";
+    case 12:
+        return "data/musics/Feu.mid";
+    case 13:
+        return "data/musics/Secret.mid";
+    case 14:
+        return "data/musics/Donjon1.mid";
+    case 15:
+        return "data/musics/Donjon2.mid";
+    case 16:
+        return "data/musics/Boss.mid";
+    case 17:
+        return "data/musics/DDesert.mid";
+    case 18:
+        return "data/musics/DSecret.mid";
+    case 19:
+        return "data/musics/Epee.mid";
+    case 20:
+        return "data/musics/DFinal.mid";
+    case 21:
+        return "data/musics/BossF.mid";
+    case 22:
+        return "data/musics/Zelda.mid";
+    case 23:
+        return "data/musics/End.mid";
+    case 24:
+        return "data/musics/Cave.mid";
+    case 25:
+        return "data/musics/Home.mid";
+    case 26:
+        return "data/musics/Maison.mid";
+    case 27:
+        return "data/musics/Maire.mid";
+    case 28:
+        return "data/musics/Jeu.mid";
+    case 29:
+        return "data/musics/Potion.mid";
+    case 30:
+        return "data/musics/Bar.mid";
+    case 31:
+        return "data/musics/Magasin.mid";
+    default:
+        return "";
     }
 }
 
-WSound* AudioHelper::getSound(int id) {
+WSound *AudioHelper::getSound(int id)
+{
     return sounds[id];
 }
 
-void AudioHelper::loadSounds() {
-    sounds = new WSound*[TS_NB_MAX];
+void AudioHelper::loadSounds()
+{
+    sounds = new WSound *[TS_NB_MAX];
     sounds[TS_MENU1] = new WSound("data/sounds/menu/menu1.wav");
     sounds[TS_MENU2] = new WSound("data/sounds/menu/menu2.wav");
     sounds[TS_MENU3] = new WSound("data/sounds/menu/menu3.wav");
@@ -73,7 +113,6 @@ void AudioHelper::loadSounds() {
     sounds[TS_STEP_WOOD2] = new WSound("data/sounds/steps/Steps_Wood2.wav");
     sounds[TS_STEP_CARPET1] = new WSound("data/sounds/steps/Steps_Carpet1.wav");
     sounds[TS_STEP_CARPET2] = new WSound("data/sounds/steps/Steps_Carpet2.wav");
-
 
     sounds[TS_JUMP] = new WSound("data/sounds/link/jump.wav");
     sounds[TS_NAGE] = new WSound("data/sounds/link/nage.wav");
@@ -105,7 +144,6 @@ void AudioHelper::loadSounds() {
     sounds[TS_BOOMERANG] = new WSound("data/sounds/link/boomerang.wav");
     sounds[TS_BAGUETTE_FEU] = new WSound("data/sounds/link/baguetteFeu.wav");
     sounds[TS_BAGUETTE_GLACE] = new WSound("data/sounds/link/baguetteGlace.wav");
-
 
     sounds[TS_NAVY_HEY] = new WSound("data/sounds/link/hey.wav");
     sounds[TS_NAVY_LISTEN] = new WSound("data/sounds/link/listen.wav");
@@ -143,19 +181,21 @@ void AudioHelper::loadSounds() {
     sounds[TS_TEXT] = new WSound("data/sounds/texts/text.wav");
     sounds[TS_TEXTNEXT] = new WSound("data/sounds/texts/textnext.wav");
     sounds[TS_TEXTEND] = new WSound("data/sounds/texts/textend.wav");
-
-
 }
 
-void AudioHelper::deleteSounds() {
-    if (sounds != 0) {
-        for (int i = 0; i < TS_NB_MAX; i++) {
+void AudioHelper::deleteSounds()
+{
+    if (sounds != 0)
+    {
+        for (int i = 0; i < TS_NB_MAX; i++)
+        {
             delete sounds[i];
         }
         delete[] sounds;
     }
 }
 
-int AudioHelper::getNbSounds() {
+int AudioHelper::getNbSounds()
+{
     return TS_NB_MAX;
 }

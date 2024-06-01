@@ -3,7 +3,8 @@
 #include "../../../engine/resources/ResourceManager.h"
 #include "../../../engine/window/WindowManager.h"
 
-PetiteEpee::PetiteEpee(int i, int j) {
+PetiteEpee::PetiteEpee(int i, int j)
+{
     x = i;
     y = j;
     persistent = true;
@@ -23,12 +24,15 @@ PetiteEpee::PetiteEpee(int i, int j) {
     box.setH(16);
 }
 
-PetiteEpee::~PetiteEpee() {
+PetiteEpee::~PetiteEpee()
+{
     ResourceManager::getInstance()->free(image);
 }
 
-void PetiteEpee::draw(int offsetX, int offsetY) {
-    if (!alive) {
+void PetiteEpee::draw(int offsetX, int offsetY)
+{
+    if (!alive)
+    {
         return;
     }
 
@@ -38,9 +42,10 @@ void PetiteEpee::draw(int offsetX, int offsetY) {
     WindowManager::getInstance()->draw(image, 132, 32, 8, 16, dstX, dstY);
 }
 
-void PetiteEpee::action() {
+void PetiteEpee::action()
+{
     getLink()->trouveObjet(TI_EPEE_1);
     alive = false;
 }
 
-bool PetiteEpee::isPickable() {return false;}
+bool PetiteEpee::isPickable() { return false; }

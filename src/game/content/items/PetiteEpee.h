@@ -13,17 +13,17 @@
 
 #include "../types/Item.h"
 
-class PetiteEpee : public Item {
-    public :
-        PetiteEpee(int x, int y);
-        ~PetiteEpee();
+class PetiteEpee : public Item
+{
+public:
+    PetiteEpee(int x, int y);
+    ~PetiteEpee();
 
-        void draw(int offsetX, int offsetY);
+    void draw(int offsetX, int offsetY);
 
-        void action();
+    void action();
 
-        bool isPickable();
-
+    bool isPickable();
 };
 
-#endif  // PetiteEpee.h
+#endif // PetiteEpee.h

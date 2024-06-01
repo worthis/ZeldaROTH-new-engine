@@ -3,7 +3,8 @@
 #include "../../../engine/resources/ResourceManager.h"
 #include "../../../engine/window/WindowManager.h"
 
-GrandeEpee::GrandeEpee(int i, int j) {
+GrandeEpee::GrandeEpee(int i, int j)
+{
     x = i;
     y = j;
     persistent = true;
@@ -17,18 +18,21 @@ GrandeEpee::GrandeEpee(int i, int j) {
     width = 10;
     height = 22;
 
-    box.setX(x+1);
-    box.setY(y+6);
+    box.setX(x + 1);
+    box.setY(y + 6);
     box.setW(8);
     box.setH(16);
 }
 
-GrandeEpee::~GrandeEpee() {
+GrandeEpee::~GrandeEpee()
+{
     ResourceManager::getInstance()->free(image);
 }
 
-void GrandeEpee::draw(int offsetX, int offsetY) {
-    if (!alive) {
+void GrandeEpee::draw(int offsetX, int offsetY)
+{
+    if (!alive)
+    {
         return;
     }
 
@@ -38,9 +42,10 @@ void GrandeEpee::draw(int offsetX, int offsetY) {
     WindowManager::getInstance()->draw(image, 131, 48, 10, 22, dstX, dstY);
 }
 
-void GrandeEpee::action() {
+void GrandeEpee::action()
+{
     getLink()->trouveObjet(TI_EPEE_5);
     alive = false;
 }
 
-bool GrandeEpee::isPickable() {return false;}
+bool GrandeEpee::isPickable() { return false; }

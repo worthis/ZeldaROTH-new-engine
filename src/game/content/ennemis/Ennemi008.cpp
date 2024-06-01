@@ -11,7 +11,8 @@
 
 #include "cstdlib"
 
-Ennemi008::Ennemi008(int i, int j) : anim(0), animMax(1), vanim(180) {
+Ennemi008::Ennemi008(int i, int j) : anim(0), animMax(1), vanim(180)
+{
     image = ResourceManager::getInstance()->loadImage("data/images/ennemis/ennemi8.png", true);
     chrono.reset();
 
@@ -25,7 +26,7 @@ Ennemi008::Ennemi008(int i, int j) : anim(0), animMax(1), vanim(180) {
     height = 24;
 
     box.setX(x);
-    box.setY(y+8);
+    box.setY(y + 8);
     box.setW(16);
     box.setH(16);
 
@@ -45,11 +46,13 @@ Ennemi008::Ennemi008(int i, int j) : anim(0), animMax(1), vanim(180) {
     forceEnn = 2;
 }
 
-Ennemi008::~Ennemi008() {
+Ennemi008::~Ennemi008()
+{
     ResourceManager::getInstance()->free(image);
 }
 
-void Ennemi008::reset() {
+void Ennemi008::reset()
+{
     Ennemi::reset();
     chrono.reset();
     x = startX;
@@ -59,40 +62,51 @@ void Ennemi008::reset() {
     checkPosition();
 }
 
-void Ennemi008::ennLoop() {
+void Ennemi008::ennLoop()
+{
 
     // retrieve target position ( = link ^^)
-    Link* link = getLink();
+    Link *link = getLink();
 
     int dstX = link->getX() + 8;
     int dstY = link->getY() + 24;
 
     int dist = abs(x + width / 2 - dstX) + abs(y + height - dstY);
-    if (dist <= maxDist) {
+    if (dist <= maxDist)
+    {
         pair<int, int> dir = AStar::getInstance()->resolvePath(this, dstX, dstY, direction);
 
         move(dir.first, dir.second);
 
-        if (link->getBoundingBox()->intersect(getBoundingBox())) {
-            if (testDegatOnLink(&box, direction, forceEnn, TA_PHYSIC, TE_NORMAL)) {
+        if (link->getBoundingBox()->intersect(getBoundingBox()))
+        {
+            if (testDegatOnLink(&box, direction, forceEnn, TA_PHYSIC, TE_NORMAL))
+            {
                 link->getStatus()->updateRupees(expert ? -50 : -5);
             }
         }
-    } else {
+    }
+    else
+    {
         idle = true;
     }
 
-    if (chrono.getElapsedTime() >= vanim) {
-        if (!gel) anim++;
-        if (anim > animMax) {
+    if (chrono.getElapsedTime() >= vanim)
+    {
+        if (!gel)
+            anim++;
+        if (anim > animMax)
+        {
             anim = 0;
         }
         chrono.reset();
     }
 }
 
-void Ennemi008::draw(int offsetX, int offsetY) {
-    if (!alive) {
+void Ennemi008::draw(int offsetX, int offsetY)
+{
+    if (!alive)
+    {
         return;
     }
 
@@ -102,16 +116,19 @@ void Ennemi008::draw(int offsetX, int offsetY) {
     WindowManager::getInstance()->draw(image, direction * width, anim * height + (gel ? height * 2 : 0), width, height, dstX, dstY);
 }
 
-int Ennemi008::getX() {
+int Ennemi008::getX()
+{
     return x;
 }
 
-int Ennemi008::getY() {
+int Ennemi008::getY()
+{
     return y;
 }
 
-BoundingBox* Ennemi008::getBoundingBox() {
+BoundingBox *Ennemi008::getBoundingBox()
+{
     box.setX(x);
-    box.setY(y+8);
+    box.setY(y + 8);
     return &box;
 }

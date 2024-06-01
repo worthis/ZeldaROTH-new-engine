@@ -17,26 +17,26 @@
 
 #include "../CommonGame.h"
 
-class Sword {
-    public :
-        Sword(int i);
-        ~Sword();
+class Sword
+{
+public:
+    Sword(int i);
+    ~Sword();
 
-        bool hit(int offsetX, int offsetY, Direction dir, Animation anim, int step, int charge, int forceTotal);
-        void draw(int offsetX, int offsetY, Direction dir, Animation anim, int step, int charge);
+    bool hit(int offsetX, int offsetY, Direction dir, Animation anim, int step, int charge, int forceTotal);
+    void draw(int offsetX, int offsetY, Direction dir, Animation anim, int step, int charge);
 
-        int getForce();
+    int getForce();
 
-    private :
+private:
+    void drawHit(int offsetX, int offsetY, Direction dir, int step);
+    void drawSpin(int offsetX, int offsetY, Direction dir, int step);
+    void drawCharge(int offsetX, int offsetY, Direction dir, bool move, int step, int charge);
 
-        void drawHit(int offsetX, int offsetY, Direction dir, int step);
-        void drawSpin(int offsetX, int offsetY, Direction dir, int step);
-        void drawCharge(int offsetX, int offsetY, Direction dir, bool move, int step, int charge);
+    int force;
 
-        int force;
-
-        WImage* image;
-        WImage* effects;
+    WImage *image;
+    WImage *effects;
 };
 
-#endif  // Sword.h
+#endif // Sword.h

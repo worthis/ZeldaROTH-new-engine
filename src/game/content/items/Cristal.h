@@ -13,21 +13,21 @@
 
 #include "../types/Item.h"
 
-class Cristal : public Item {
-    public :
-        Cristal(int x, int y, int id);
-        ~Cristal();
+class Cristal : public Item
+{
+public:
+    Cristal(int x, int y, int id);
+    ~Cristal();
 
-        void loop();
-        void draw(int offsetX, int offsetY);
+    void loop();
+    void draw(int offsetX, int offsetY);
 
-        void action();
+    void action();
 
-        bool isPickable();
+    bool isPickable();
 
-    private :
-
-        int id;
+private:
+    int id;
 };
 
-#endif  // Cristal.h
+#endif // Cristal.h

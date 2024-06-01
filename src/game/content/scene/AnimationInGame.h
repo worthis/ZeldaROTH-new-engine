@@ -17,47 +17,45 @@
 
 #include "../../../engine/renderer/SimpleTransition.h"
 
-class AnimationInGame {
-    public :
-        AnimationInGame();
-        ~AnimationInGame();
+class AnimationInGame
+{
+public:
+    AnimationInGame();
+    ~AnimationInGame();
 
-        void testAnim(); // startAnim if needed
-        void startAnim(int id);
-        void loop();
-        void draw();
-        void drawAfterHud();
+    void testAnim(); // startAnim if needed
+    void startAnim(int id);
+    void loop();
+    void draw();
+    void drawAfterHud();
 
-        bool isRunning();
+    bool isRunning();
 
-        int getSpecialMusicId();
+    int getSpecialMusicId();
 
-        bool loopMap();
-        bool loopCamera();
-        bool loopLink();
+    bool loopMap();
+    bool loopCamera();
+    bool loopLink();
 
-        void stop();
+    void stop();
 
-    private :
+private:
+    int id;
+    int anim;
 
-        int id;
-        int anim;
+    bool running;
 
-        bool running;
+    bool lmap;
+    bool lcamera;
+    bool llink;
 
-        bool lmap;
-        bool lcamera;
-        bool llink;
+    Link *link;
+    Map *map;
+    Camera *camera;
 
-        Link* link;
-        Map* map;
-        Camera* camera;
+    WImage *image;
 
-        WImage* image;
-
-        SimpleTransition transition;
-
+    SimpleTransition transition;
 };
 
-#endif  // AnimationInGame.h
-
+#endif // AnimationInGame.h
