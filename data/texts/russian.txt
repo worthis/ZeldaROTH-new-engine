@@ -1,4 +1,4 @@
-НАЖМИТЕ START
+НАЖМИТЕ ENTER
 ВЫБОР ИГРЫ
 НАСТРОЙКИ
 РЕКОРДЫ
@@ -31,9 +31,9 @@
 ВЛЕВО:
 ВПРАВО:
 БЕГ:
-МЕЧ :
-ПРЕДМЕТ :
-ДЕЙСТВИЕ :
+МЕЧ:
+ПРЕДМЕТ:
+ДЕЙСТВИЕ:
 МЕНЮ:
 КАРТА:
 МОНСТРОПЕДИЯ:
@@ -45,35 +45,35 @@ TAB
 SHIFT
 SPACE
 ENTER
-TOP
-BOTTOM
+UP
+DOWN
 LEFT
 RIGHT
 ДА
 НЕТ
-KEYBOARD LAYOUT :
+РАСКЛАДКА КЛАВИАТУРЫ:
 AZERTY
 QWERTY
-КАМЕРА :
+КАМЕРА:
 СТРАНИЦА 1 / 3
 СТРАНИЦА 2 / 3
 СТРАНИЦА 3 / 3
 ЛУЧШЕЕ ВРЕМЯ:
-100% RANK
-ULTIMATE RANK
-SPEED RANK
-RANG : UNKNOWN
-RANG : Hyrule's Hero
-RANG : Show-off
-RANG : Hylian marathon runner
+100% РАНГ
+ВЫСШИЙ РАНГ
+РАНГ СКОРОСТИ
+РАНГ: НЕИЗВЕСТЕН
+РАНГ: Герой Хайрула
+РАНГ: Хвастунишка
+РАНГ: Хилийский марафонец
 Пройти игру на 100%.
-Complete game without dying,
-with at most 10 hearts,
-without buying any bottle,
-without shield, nor 
-speaking to Great Fairies.
-Complete game in less than
-two hours.
+Пройти игру не умирая,
+имея не более 10 Сердец,
+не покупая бутылки,
+без щита, и не встречая
+Великих Фей.
+Пройти игру менее, чем
+за два часа.
 Королевство Хайрул пребывает в мире с тех пор, как Линк, последний рыцарь Хайрула, победил злобного Ганона и отвоевал у него бесценный Трифорс.       
 Что же Линк пожелал Трифорсу? Никто не может сказать, но Светлый Мир и Темный Мир воссоединились, а потомки Семи Мудрецов вернулись к жизни.
 Затем, Линк вернул Трифорс и Меч Мастера Принцессе Зельде, а люди понадеялись на то, что мир продлится долго.[br]Но, люди ошибались...
@@ -82,38 +82,38 @@ two hours.
 На помощь![br]Спаси меня![br]Это я![br]Зельда![br]Я взываю к тебе телепатически.
 Меня заточили в подземелье замка! Мне нужна твоя помощь![br]Ганон вернулся, и он наверняка уже нашел Трифорс... 
 Скорее отправляйся в замок, Линк, ты - моя единственная надежда...
-ПОМОЩЬ: Нажми SELECT, чтобы ознакомиться со справкой по игре.
+ПОМОЩЬ: Нажми F1, чтобы ознакомиться со справкой по игре.
 Хочешь выйти из игры в главное меню? [center][c=2]ПРОДОЛЖИТЬ[c=0][/center][center]СОХРАНИТЬ И ВЫЙТИ[/center][center]ВЫЙТИ БЕЗ СОХРАНЕНИЯ[/center]
 Хочешь выйти из игры в главное меню? [center][c=0]ПРОДОЛЖИТЬ[/center][center][c=2]СОХРАНИТЬ И ВЫЙТИ[c=0][/center][center]ВЫЙТИ БЕЗ СОХРАНЕНИЯ[/center]
 Хочешь выйти из игры в главное меню? [center][c=0]ПРОДОЛЖИТЬ[/center][center]СОХРАНИТЬ И ВЫЙТИ[/center][center][c=2]ВЫЙТИ БЕЗ СОХРАНЕНИЯ[c=0][/center]
 Ты нашел Частицу Сердца!!!
 Найди еще [v=1] из них и ты соберешь новый Контейнер с Сердцем!!!
-Ты нашел Контейнер с Сердцем!!!
+Ты собрал Контейнер с Сердцем!!!
 Ты нашел бутылку!!!
 Используй ее, чтобы носить зелья с собой!
 Ты получил Щит!!![br]Твоя защита увеличилась на одно очко!!!
 Ты получил Короткий Меч!!![br]Нажимай [EPEE], чтобы рубить кусты и врагов!
 Зажми [EPEE], чтобы подготовить круговую атаку!
 Теперь твой меч стал в три раза мощнее и может отражать разные магические атаки, разве это не круто!?
-Ты нашел Меч Мастера![br]Even Ganon should be too weak to face it!!! (theoretically)   
-Ты нашел Перчатки!!![br]Equip them or press [ACTION] to lift objects.
-Your gloves' increased power will allow you     to lift heavy rocks.
-Ты нашел Лук!!![br]Use it to reach remote targets.  
-Your bow now fires devastating                  silver arrows!!!
-You got the flippers!!!                         You can now swim in the water! 
-You got the magic hammer!!!                     Use it to crush obstacles.
-You got the lamp!!!                             Use it to create a flame.
-You got a red potion!!!                         Use it to get all your hearts back!!!  
-You got a green potion!!!                       Use it to get all your magic back!!!
-You got a blue potion!!!                        Use it to get all your hearts and magic back!!! 
-You have found the dungeon's map!!!             When inside the dungeon, press [CARTE] to view it!!!
-You have found the compass!!!                   Chests and bosses are now marked on the map!!!
-You have found the boss key!!!                  Use it to enter it's lair!!!!
-You have found a small key!!!                   Use it to open a locked door!!!!
-You have found a magic medallion!!!             Your defense has increased!!!
-You have found the Switch Hook!!!               You can now cross chasms by throwing it against wooden objects!!!
-You have found the Fire Rod!!!                  You can now cast powerful fireballs!!!
-You have found the Ice Rod!!!                   You can now cast powerful ice balls!!!
+Ты нашел Меч Мастера![br]Даже Ганон не может устоять перед его могуществом!!! (теоретически)
+Ты нашел Перчатки!!![br]Надень их или нажми [ACTION], чтобы поднимать предметы.
+Сила твоих перчаток увеличилась и теперь позволяет поднимать тяжелые камни.
+Ты нашел Лук!!![br]Используй его, чтобы достигать цели на расстоянии.  
+Теперь твой лук стреляет смертоносными серебряными стрелами!!!
+Ты нашел Ласты!!![br]Теперь ты можешь плать по воде!
+Ты нашел Волшебный Молот!!![br]Используй его, чтобы сокрушать препятствия.
+Ты нашел Лампу!!![br]Используй ее, чтобы разжечь пламя.
+Ты получил красное зелье!!![br]Используй его, чтобы восстановить свои сердца!!!  
+Ты получил зеленое зелье!!![br]Используй его, чтобы восстановить свою магию!!!
+Ты получил синее зелье!!![br]Используй его, чтобы восстановить свои сердца и магию!!! 
+Ты нашел Карту Подземелья!!![br]Находясь в Подземелье, нажми [CARTE], чтобы посмотреть ее!!!
+Ты нашел Компас!!![br]Сундуки и босс теперь помечены на карте!!!
+Ты нашел Ключ Босса!!![br]Используй его, чтобы войти в его логово!!!!
+Ты нашел малый ключ!!![br]Используй его, чтобы открыть запертую дверь!!!!
+Ты нашел волшебный медальон!!![br]Твоя защита увеличилась!!!
+Ты нашел Гарпун!!![br]Теперь ты можешь преодолевать пропасти, метнув его в деревянные предметы!!!
+Ты нашел Огненный Жезл!!![br]Теперь ты можешь метать мощные огненные шары!!!
+Ты нашел Ледяной Жезл!!![br]Теперь ты можешь метать мощные ледяные шары!!!
 [center]Уровень 1:[/center][center]Лесной Храм[/center]
 [center]Уровень 2:[/center][center]Водяной Храм[/center]
 [center]Уровень 3:[/center][center]Горный Храм[/center]
@@ -132,231 +132,233 @@ You have found the Ice Rod!!!                   You can now cast powerful ice ba
 ВРЕМЯ:
 ПОМОЩЬ 1/2
 ПОМОЩЬ 2/2
-Вернуться в игру: SELECT       Дальше: Вправо
-Вернуться в игру: SELECT         Назад: Влево
+Вернуться в игру: F1           Дальше: Вправо
+Вернуться в игру: F1             Назад: Влево
 Удар мечом:
-Charged attack:                Hold the sword
-Open / Talk / Lift :
-Use selected object:
-Selection item menu:
+Круговая атака:         Удерживать Удар мечом
+Открыть / Говорить / Поднять:
+Использовать выбранный предмет:
+Выбрать предмет:
 Бег:
-Map  (outdoor or dungeons):
-Monsters' encyclopedia:
-Look around:
+Карта (снаружи или в подземельях):
+Энциклопедия монстров:
+Осмотреться:
 Сохранить / Выйти:
-Full screen / Windowed:       CTRL and RETURN
-БЕСТИАРИЙ 1
-БЕСТИАРИЙ 2
-БЕСТИАРИЙ 3
-БЕСТИАРИЙ 4
-N: Link's house                                 W: Hyrule Field                                 E: Forest Temple
-Forest Temple                                                                                   Save trees, eat a beaver!!!
-N: Death Mountain
-S: Towards the Kakariko Village
-S: Lake Hylia                                   E: Haunted Graveyard
-E: Forest's entrance
-W: Fire Lands
-N: Kakariko Village
-Ice Temple                                                                                      The staff reminds that dungeons are no skating rinks. Thank you.
-Water Temple                                                                                    Swimming cap is compulsory.
-N: Hyrule Field 
-E: Shadow Village                                                                               - We would recommend living people to avoid that place -  
-W: Hyrule's castle
-Kakariko Village
-N: Desert and Gerudo Village
-S: Lake Hylia                                   W: Hyrule's castle
-What a beautiful day!!!
-Why did I agree to take care of all these filthy worm eaters???                                  I hate hens!!!
-The village's shops sell lots of attractive products.
-An empty bottle for 100 rupees?                                                                               [c=2]YES[c=0]              NO
-An empty bottle for 100 rupees?                                                                               [c=0]YES              [c=2]NO
-Sorry, you don't have enough rupees.
-Thanks, here is your bottle.
-Come back if you change your mind.
-Sorry, I had only one bottle. 
-S: Fire Lands                                   E: Kakariko Village 
-Hyrule's Castle
-E: Kakariko Village 
-W: Desert                                       N: Mountain Temple
-Mountain Temple                                                                                 Not for the squeamish of faint-hearted.
-N: Mountain Temple                              S: Hyrule Field
-Desert Temple                                   Try out our baths.                              (non-potable water)
-S: Toward Hyrule's castle
-Lost in the desert ?                            You are here :                                                            X
-Gerudo Village
-S: Kakariko Village                             W: Desert                                       E: Death Mountain
-The temple is in the heart of the desert, on the spot of a former oasis.
-Have you met this village's blacksmith ?        He is notoriously very good at improving traveller's equipment.
-N: Shadow Village                               W: Lake Hylia                                
-N: Haunted Graveyard                                                                            No admission
-Shadow Village
-Shadow Temple                                                                                   If you are a ghost, seeking a job, you'd better come here to hang out with us.
-This village's inhabitants have a very peculiar dialect, I don't understand anything...
-Go get a permit from the chief if you really want to pass!!!
-The chief allowed you to pass??? Grrrr... Then, move out!!!
-Get out of my way!!!
-@+@+@+@+@+@+@@@+                                @=++=@=+@=+@=+=@                                +@+@+@+=+=
-We're not used to receiving visitors around here...
-Monsters are not easily frightened in the neighbourhood. Fortunately they only attack humans.
-Is that true?                                   You understand when I talk? 
-Turtle's rock                                                                                   Knock before entering!
-W: Turtle's rock                                E: Lake Hylia
-Hidden Temple                                                                                   Here lies the cleansing blade, the Master Sword. 
-N: Toward the haunted graveyard                                                                             
-You got a magic crystal!!! 
-What use will it be?
-There are still [v=1] of them to find!!!
-Only 2 more to find!!!
-Only one left to find!!!
-You've found all the crystals, run to the castle to save Zelda!!!
-Do you want to save?                                                  [c=2]YES[c=0]                                             NO
-Do you want to save?                                                  YES                                             [c=2]NO[c=0]
-Do you want to go back to the dungeon's         entrance?                                                             [c=2]YES[c=0]                                             NO
-Do you want to go back to the dungeon's         entrance?                                                             YES                                             [c=2]NO[c=0]
-Forest Temple
-Water Temple
-Mountain Temple
-Desert Temple
-Shadow Temple
-Fire Temple
-Ice Temple 
-Secret Temple
-Hyrule's castle
-Congratulations Link ! You managed to come and save me !                                        Let's go and find Ganon, we have to take the Triforce back from him!
-We'll find Ganon at the end of the secret passage behind the throne room. Let's go!
-We're almost there, follow me!
-I'm afraid you'll never vanquish Ganon with your current weapons...                             Go explain our problem to Kakariko Village's chief, I'm sure he'll figure a solution.
-Ganon is right behind that door. I'll cure you before the fight. 
-Ganon is still somewhere in the castle!
-Wait for me Link!!!                             You think it's easy, running with high heels ?
-Don't you feel like you're forgetting someone?  
-Zelda is waiting for you!!!                     She's probably held prisoner in the underground dungeons! 
-You got the Triforce!!!
-When Link touched the Triforce, all the monsters  disappeared and peace came back.                                                                    Princess Zelda took a great decision : she touched the Triforce to make her wish come true...                                                         The Triforce had always been the seed of all the Kingdom's troubles, sooner or later, some evil doer would have found it.                                                                           But it definitely disappeared from Hyrule the moment princess Zelda touched it. 
-Since then, Hyrule's people have lived happy and at peace, with no fear of new disasters.                                                             And that's the end of the legend of Zelda, of the Triforce, and of the Golden Land. It is said that the Master Sword lies safely somewhere as the last memory of Link's quest.
-You got the book of Mudora!!!                                                                   From now on, you can understand old Hylian!!!
-Congratulations Link, you managed to find me. As a reward, I grant you the medal of Din. It increases your defense by one point. 
-Congratulations Link, you managed to find me. As a reward, I grant you the medal of Farore. It increases your defense by one point. 
-Congratulations Link, you managed to find me. As a reward, I grant you the medal of Nayru. It increases your defense by two points!!!
-I'm going to cure your wounds.
+Полноэкранный / Оконный:        CTRL и RETURN
+МОНСТРЫ 1
+МОНСТРЫ 2
+МОНСТРЫ 3
+МОНСТРЫ 4
+С: Дом Линка[br]З: Поля Хайрула[br]В: Лесной Храм
+Лесной Храм[br]Спаси деревья, съешь бобра!!!
+С: Гора Смерти
+Ю: Путь к Какарико
+Ю: Озеро Хайлия[br]В: Кладбище с привидениями
+В: Проход в Лес
+З: Огненные Земли
+С: Какарико
+Ледяной Храм[br][br]Персонал напоминает вам, что здесь подземелье, а не каток. Спасибо.
+Водный Храм[br][br]Всем обязательно иметь при себе шапочку для купания.
+С: Поля Хайрула
+В: Деревня Теней[br][br]- Мы советуем живым избегать это место -  
+З: Замок Хайрула
+Какарико
+С: Пустыня и Деревня Герудо
+Ю: Озеро Хайлия[br]З: Замок Хайрула
+Какой чудесный день!!!
+Зачем я только согласилась ухаживать за этим гадюшником???[br]Терпеть не могу кур!!!
+В местном магазине можно найти множество полезных вещей.
+Нужна пустая бутылка за 100 рупий?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Нужна пустая бутылка за 100 рупий?[br][br][center][c=0]ДА              [c=2]НЕТ[/center]
+Извини, у тебя рупий не хватает.
+Благодарю, вот твоя бутылка.
+Возвращайся, если передумаешь.
+Прошу прощения, но это была последняя бутылка.
+Ю: Огненные Земли[br]В: Какарико
+Замок Хайрула
+В: Какарико
+З: Выход в Пустыню[br]С: Горный Храм
+Горный Храм[br][br]Не для слабонервных, трусливых и вообще малодушных.
+С: Горный Храм[br]Ю: Поля Хайрула
+Пустынный Храм[br][br]Приходите опробовать наши купальни.[br](вода непригодна для питья)
+Ю: К Замку Хайрула
+Заблудились в пустыне?[br]Вы здесь:[br]                        X
+Деревня Герудо
+Ю: Какарико[br]З: Пустыня[br]В: Гора Смерти
+Храм находится в самом сердце пустыни, на месте пересохшего оазиса.
+Вы еще не были у нашего кузнеца?[br]Он известный мастер по улучшению снаряжения путешественников.
+С: Деревня Теней[br]З: Озеро Хайлия
+С: Кладбище с привидениями[br][br]Входа нет
+Деревня Теней
+Темный Храм[br][br]Если ты призрак, ищущий работу, то тебе стоит зайти и потусить с нами.
+У жителей этой деревни очень необычный диалект, ничего невозможно понять...
+Сначала раздобудь разрешение Старосты, если хочешь пройти здесь!!!
+Староста разрешил тебе пройти??? Г-р-р-р... Проходи уже!!!
+Прочь с дороги!!!
+@+@+@+@+@+@+@@@+[br]@=++=@=+@=+@=+=@[br]+@+@+@+=+=
+Здесь не принято принимать гостей...
+Монстров по соседству не так-то легко спугнуть. К счастью, они нападают только на людей.
+Серьезно?[br]Ты понял, что я только что сказал?
+Черепашья скала[br][br]Стучитесь, прежде чем войти!
+З: Черепашья скала[br]В: Озеро Хайлия
+Тайный Храм[br][br]Здесь покоится легендарный меч, Меч Мастера.
+С: К Кладбищу с привидениями
+Ты нашел Магический Кристалл!!!
+Интересно... Для чего он нужен?
+Осталось найти еще [v=1] из них!!!
+Осталось найти еще два!!!
+Осталось найти еще один!!!
+Теперь у тебя есть все Кристаллы, скорее направляйся в Замок и спаси Зельду!!!
+Хочешь сохранить игру сейчас?[br][br][center][c=2]ДА[c=0][/center][center]НЕТ[/center]
+Хочешь сохранить игру сейчас?[br][br][center]ДА[/center][center][c=2]НЕТ[c=0][/center]
+Хочешь вернуться ко входу в подземелье?[br][br][center][c=2]ДА[c=0][/center][center]НЕТ[/center]
+Хочешь вернуться ко входу в подземелье?[br][br][center]ДА[/center][center][c=2]НЕТ[c=0][/center]
+Лесной Храм
+Водяной Храм
+Горный Храм
+Пустынный Храм
+Темный Храм
+Огненный Храм
+Ледяной Храм
+Тайный Храм
+Замок Хайрула
+Поздравляю, Линк! Ты смог найти и спасти меня![br][br]Давай быстрее найдем Ганона! Мы должны вернуть Трифорс!
+Мы найдем Ганона в конце секретного прохода за тронным залом. Вперед!
+Мы уже близко, за мной!
+Боюсь, что с нынешним оружием тебе не победить Ганона...[br][br]Поговори со старостой деревни Какарико, я уверена, он что-нибудь придумает.
+Ганон прямо за этой дверью! Давай я исцелю твои раны перед битвой.
+Ганон все еще где-то в замке.
+Подождите меня, Линк!!![br]Думаешь, это легко - бегать на каблуках?
+Тебе не кажется, что ты кого-то забыл?
+Зельда ждет тебя!!![br]Возможно, ее держат в плену в самой глубине подземелья!
+Ты нашел Трифорс!!!
+Как только Линк коснулся Трифорса, монстры исчезли и наступил мир.[br][br]Принцесса Зельда приняла великое решение: она коснулась Трифорса и загадала свое желание...[br][br]Трифорс всегда был источником бед Королевства, рано или поздно его находило очередное порождение зла.[br][br]Как только Принцесса Зельда прикоснулась к реликвии, она навсегда исчезла из Хайрула.
+С тех пор, жители Хайрула живут в мире, не опасаясь новых бедствий.[br][br]И на этом закончилась легенда о Зельде, Трифорсе и Золотой Земле. Меч Мастера, говорят, так и покоится в безопасном месте, как последнее напоминание о приключениях Линка.
+Ты нашел Книгу Мудоры!!![br][br]Теперь ты понимаешь древний Хайлийский!!!
+Поздравляю, Линк! Ты нашел меня и в награду я дарю тебе Кулон богини Дин, он повысит твою защиту на одно очко.
+Поздравляю, Линк! Ты нашел меня и в награду я дарю тебе Кулон богини Фароре, он повысит твою защиту на одно очко.
+Поздравляю, Линк! Ты нашел меня и в награду я дарю тебе Кулон богини Нейрю, он повысит твою защиту на два очка!!!
+Я исцелю твои раны.
 ...
-Congratulations Link, you managed to find me. As a reward, I double your magic gauge. 
-Your magic gauge has doubled!!!
-Welcome Link!                                   Let me explain why I'm here.
-You may have noticed that monsters have appeared in all Hyrule.                                   I hadn't seen monsters since you defeated Ganon.
-Well... I decided to list them all. 
-But since I'm too fearful to go and meet them, I need your help.
-I need you to vanquish every type of monster and make me a report. I'll give you a reward every 7 types of enemies you vanquish. 
-If you want to know how many enemies you vanquished, press [MONSTERS]. 
-[v=1] enemies to go before the next reward. 
-Only one new type of enemy left before your next reward!!!
-Receive this gift as a reward for your help:
-I'm sorry, but I have nothing more to give you...
-I can't believe it ! You vanquished all types of enemy!!!                                      Congratulations Link!!!
-Good morning Link, I'm this village's chief. I expected your arrival.
-Monsters have been appearing everywhere since sunrise. I went to tell princess Zelda, but as you may have noticed, a powerful spell forbids all access to the castle...
-What ? Ganon's behind all this ? He stole the Triforce and keeps princess Zelda prisoner?
-Mmmm... Things are worse than I thought...      We must react quickly, and you have to fight Ganon again! 
-How to get into the castle? I may have an idea...
-As you know, the 7 wise men's power was locked inside 7 crystals by sorcerer Aghanim when he tried to remove the seal confining Ganon to the dark world. 
-Yet, even though you resurrected the wise men's descendants, the crystals kept their power.
-They've been hidden in the heart of the 7 temples. Bring them together and you'll be able to bypass Ganon's spell.
-It won't be easy, though. Ganon must have sent his best servants to defend the crystals.
-Before going for this quest, you need a better equipment. Tell the weapons' seller I sent you, he'll make you a discount. Good luck!
-Tell the weapons' seller I sent you, he'll make you a discount.
-You need to gather the 7 crystals if you ever want to save Zelda and Hyrule...
-You've found the 7 crystals? Then go to the castle, you need to free the princess, she'll know what to do better than me.
-Your weapons are powerless against Ganon? Then, you must find the Master Sword. Rumour has it that it's hidden in a hidden temple. 
-And also that the way to the cleansing blade goes through a village inhabited by monsters... I wonder if there truly is such a village...     
-Any case, you won't find it with your current equipment. You should go to Gerudo village's Smith.
-It's time to face Ganon and take back the Triforce from him!
-One of these chests contains a piece of heart, do you want to try to find which for 10 rupees?  You can open only one chest, OK?                               [c=2]YES[c=0]              NO 
-One of these chests contains a piece of heart, do you want to try to find which for 10 rupees?  You can open only one chest, OK?                               YES              [c=2]NO[c=0] 
-Open one chest, whichever you like.
-There are no more prices to be won, sorry.
-Come back when you have an empty bottle, and I'll sell you a red potion, to restore your hearts.
-A red potion for 60 rupees, OK?                                                                               [c=2]YES[c=0]              NO 
-A red potion for 60 rupees, OK?                                                                               YES              [c=2]NO[c=0] 
-Thanks, here is your potion.
-Hello, what do you want to drink? 
-Hic! They say a fai..fairy gives magic objects to... Hic! adve...adventur... people who find her... Hic!!!
-A piece of heart for 2 rupees, OK?                                                                            [c=2]YES[c=0]              NO 
-A piece of heart for 2 rupees, OK?                                                                            YES              [c=2]NO[c=0]   
-Some magic for 20 rupees, OK?                                                                                 [c=2]YES[c=0]              NO 
-Some magic for 20 rupees, OK?                                                                                 YES              [c=2]NO[c=0]  
-5 arrows for 10 rupees, OK?                                                                                   [c=2]YES[c=0]              NO  
-5 arrows for 10 rupees, OK?                                                                                   YES              [c=2]NO[c=0]                                                       
-One bomb for 10 rupees, OK?                                                                                   [c=2]YES[c=0]              NO   
-One bomb for 10 rupees, OK?                                                                                   YES              [c=2]NO[c=0]                                                        
-A bow for 1000 rupees, OK?                                                                                    [c=2]YES[c=0]              NO    
-A bow for 1000 rupees, OK?                                                                                    YES              [c=2]NO[c=0]                                                         
-A bow for 50 rupees, OK?                                                                                      [c=2]YES[c=0]              NO    
-A bow for 50 rupees, OK?                                                                                      YES              [c=2]NO[c=0]                                                         
-You have no need for that now. 
-Thank you.
-Choose whatever you want.
-Really?                                         The chief sent you in a mission???              Well, I'll make you a little discount on the bow, then...
-You already bought the only bow I had. 
-Thanks... But that's a bargain for you...
-Come back later, I'm overworked!
-How can I help you?
-Shall I reforge your sword?                                                                                   [c=2]YES[c=0]              NO  
-Shall I reforge your sword?                                                                                   YES              [c=2]NO[c=0]   
-Shall I improve your gloves?                                                                                  [c=2]YES[c=0]              NO   
-Shall I improve your gloves?                                                                                  YES              [c=2]NO[c=0]                               
-Shall I improve your bow?                                                                                     [c=2]YES[c=0]              NO   
-Shall I improve your bow?                                                                                     YES              [c=2]NO[c=0]                               
-Good morning Link, I'm this village's chief.    You should go to the smith and show him some of your equipment if you want him to reforge it. 
-I heard of your quest, so I made a deal with him. Everything will be free for you.
-Come back when you have an empty bottle and I'll sell you a green potion, to restore your magic.
-A green potion for 40 rupees, OK ?                                                                            [c=2]YES[c=0]              NO   
-A green potion for 40 rupees, OK ?                                                                            YES              [c=2]NO[c=0]                                
-Good morning! If you came to see the smith, he lives a little further. 
-When you brought peace back to Hyrule and reunited the light world to the Golden Land, Zelda secretly asked willing spirits to create this village to protect a very precious object.
-Our village was created to prevent reckless adventurers from going to the temple. I don't give permission to pass to anyone.
-Mmmm... You already found 4 crystals?            I must admit I'm impressed...
-OK, you may go through the graveyard, but it will be at your own risks !                                                                              
-Tell the guard I allowed you to go, and he'll let you pass. 
-Oh, you're still alive.                         What a surprise !
-The shadow temple is the beginning of a path that leads to a legendary object. This village exists only to deter adventurers from getting to close to it. 
-Have you found the sword?                       Yet, I don't think it is yours just because you found it.
-The Master Sword is part of Hyrule's most precious heritage, you'll have to bring it back to it's sanctuary once your mission has been completed.
-Come back when you have an empty bottle and I'll sell you a blue potion to restore your hearts and your magic.
-A blue potion for 160 rupees, OK?                                                                               [c=2]YES[c=0]              NO 
-A blue potion for 160 rupees, OK?                                                                               YES              [c=2]NO[c=0] 
-This village's inhabitants are spirits who answered to princess Zelda's call.
-SCORES :
-Time :
-Dead [v=1] time
-Dead [v=1] times
-Pieces of hearts : [v=1] / 36
-Objects : [v=1] / 56
-Defeated enemies : [v=1] / 46
-Congratulations, you completed the game at [v=1] % !
-RANK :
-- Show-off
-- Perfectionist
-- Fan of Zelda
-- Seasoned player
-- Beginner
-- Hylian marathon runner
-- Undead
-- Kamikaze
-RANKS :
-Game designer / Developer:
+Поздравляю, Линк! Ты нашел меня и в награду я удвою твое максимальное количество магии. 
+Твое максимальное количество магии удвоено!!!
+Добро пожаловать, Линк![br]Позволь мне представить тебе то, чем я тут занимаюсь.
+Думаю, ты уже заметил, что монстры заполонили Хайрул.[br]Впервые вижу тут столько монстров с тех пор, как ты одолел Ганона.
+Что ж... Вот я и решил изучить их всех.
+Но, к сожалению, я очень боязлив и не могу встретиться с ними лицом к лицу, поэтому мне нужна твоя помощь.
+Тебе предстоит сразиться с монстром каждого вида и вернуться ко мне с отчетом. Я награжу тебя за каждую новую семерку изученных монстров.
+Если желаешь посмотреть список побежденных монстров, то нажми [MONSTERS]. 
+Срази еще [v=1] разных монстров для получения новой награды.
+Тебе осталось сразить еще одного монстра для получения следующей награды!!!
+Прими эту награду за свою помощь:
+Прошу простить меня, но мне больше нечем тебя наградить...
+Я не могу в это поверить, но ты смог одолеть монстров всех видов!!![br]Прими мои поздравления, Линк!!!
+Доброе утро, Линк. Я - Староста этой деревни. Я ожидал тебя.
+Монстры появляются всюду с самого рассвета. Я отправился сообщить об этом принцессе Зельде, но, как ты, возможно, уже заметил, мощное заклинание заблокировало вход в замок...
+Что? Ганон стоит за всем этим? Он выкрал Трифорс и держит принцессу Зельду в заточении?
+Хммм... Обстановка куда серьезнее, чем я думал...[br]Нам нужно действовать очень быстро, тебе предстоит снова встретиться с Ганоном!
+Как пройти в замок?[br]Есть у меня одна идея...
+Как тебе известно, сила Семи Мудрецов была заперта в семи кристаллах колдуном Аганимом, когда он пытался снять печать, сковывающую Ганона в темном мире. 
+Но даже несмотря на то, что ты воскресил потомков Семи Мудрецов, эти кристаллы все еще сохранили свою силу.
+Они сокрыты в глубине семи храмов. Собери их все, и ты сможешь разрушить чары Ганона.
+Однако это будет нелегко: Ганон наверняка отправит своих лучших воинов на защиту этих кристаллов.
+Перед тем, как отправиться на это задание, тебе понадобится лучшее снаряжение. Скажи продавцу оружия, что я тебя послал, и он сделает тебе скидку. Удачи!
+Передайте продавцу оружия, что я тебя послал, он сделает тебе скидку.
+Тебе предстоит собрать Семь кристаллов, чтобы обрести шанс спасти Зельду и весь Хайрул...
+Ты нашел семь кристаллов? Тогда отправляйся в замок, тебе нужно освободить принцессу, она лучше меня знает, что нужно делать.
+Твое оружие бессильно против Ганона? Тогда тебе нужно найти Меч Мастера. Говорят, что он был спрятан в тайном храме.
+Кроме того, говорят, что путь, ведущий к мечу Сокрушителю Зла, лежит через деревню, населенную монстрами... Интересно, существует ли подобная деревня...   
+В любом случае, с твоим нынешним снаряжением ты его не достанешь. Отправляйся к кузнецу деревни Герудо.
+Пришло время сразиться с Ганоном и забрать у него Трифорс!
+В одном из этих сундуков лежит Частица Сердца, попробуете ее найти за 10 рупий? Можно открыть только один сундук, идет?[center][c=2]ДА[c=0]              НЕТ[/center]
+В одном из этих сундуков лежит Частица Сердца, попробуете ее найти за 10 рупий? Можно открыть только один сундук, идет?[center]ДА              [c=2]НЕТ[c=0][/center]
+Откройте один из сундуков, по своему желанию.
+К сожалению, у меня больше нет призов для розыгрыша.
+Приходите, когда у вас будет пустая бутылка, и я продам красное зелье, восстанавливающее Сердца.
+Красное зелье за 60 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/enter]
+Красное зелье за 60 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Благодарю, вот ваше зелье.
+Привет, что желаете выпить?
+И-ик! Говорят, ф-ф-фе..феи могут наградить волшебным артеф-ф-фактом того... И-ик! и-и-искателя п-п-прикля...приключе... н-н-н... вобщем того, кто сможет найти их... И-ик!!!
+Восполнить Сердце за 2 рупии, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Восполнить Сердце за 2 рупии, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Немного магии за 20 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Немного магии за 20 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Пять стрел за 10 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Пять стрел за 10 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Одна бомба за 10 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Одна бомба за 10 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Лук за 1000 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Лук за 1000 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Лук за 50 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Лук за 50 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Сейчас вам это не нужно.
+Благодарю.
+Выберите то, что пожелаете.
+Неужели?[br]Староста послал вас на задание???[br]Ну, тогда я сделаю вам небольшую скидку на этот лук...
+Вы уже купили единственный лук, который у меня был.
+Спасибо... Очень выгодная сделка для вас...
+Приходите позже, я очень занят!
+Чем я могу помочь?
+Мне перековать ваш меч?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Мне перековать ваш меч?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Мне улучшить ваши перчатки?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Мне улучшить ваши перчатки?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Мне улучшить ваш лук?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Мне улучшить ваш лук?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Доброе утро, Линк, я староста этой деревни. Тебе стоит пойти к нашему кузнецу и показать ему что-нибудь из своего снаряжения, чтобы он его перековал.
+Я слышал о твоем задании, поэтому договорился с ним. Для тебя все будет бесплатно.
+Приходите, когда у вас будет пустая бутылка, и я продам зеленое зелье, восстанавливающее вашу Магию.
+Зеленое зелье за 40 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Зеленое зелье за 40 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Доброе утро! Если вы пришли к кузнецу, то он живет чуть дальше.
+Когда ты вернул мир в Хайрул и воссоединил Мир Света с Золотой землей, Зельда тайно попросила духов основать эту деревню, чтобы охранять очень ценный артефакт.
+Наша деревня возникла здесь именно для того, чтобы не допустить в храм беспечных приключенцев. Я никому не разрешаю пройти.
+Мммм... Ты уже нашел 4 кристалла?[br]Должен признать, я впечатлен...
+Ладно, ты можешь пройти через кладбище, но это будет на твой страх и риск!
+Скажи стражнику, что я разрешаю тебе пройти, он пропустит тебя.
+О, ты все еще жив.[br]Какая неожиданность!
+Храм теней - это начало пути, который ведет к легендарному артефакту. Эта деревня существует только для того, чтобы не дать искателям приключений подобраться к нему слишком близко.
+Ты нашел меч?[br]Но я не думаю, что он станет твоим только потому, что ты его нашел.
+Меч Мастера - одна из самых ценных реликвий Хайрула, и тебе придется вернуть его в святилище после того, как твоя миссия будет выполнена.
+Приходите, когда у вас будет пустая бутылка, и я продам синее зелье, восстанавливающее ваши Сердца и Магию.
+Синее зелье за 160 рупий, идет?[br][br][center][c=2]ДА[c=0]              НЕТ[/center]
+Синее зелье за 160 рупий, идет?[br][br][center]ДА              [c=2]НЕТ[c=0][/center]
+Жители этой деревни - духи, откликнувшиеся на зов принцессы Зельды.
+РЕЗУЛЬТАТЫ ИГРЫ:
+Время:
+Погиб [v=1] раз
+Погиб [v=1] раз
+Частиц Сердца: [v=1] / 36
+Предметов: [v=1] / 56
+Побил врагов: [v=1] / 46
+Поздравляю, ты прошел игру на [v=1] %!
+РАНГ:
+- Хвастунишка
+- Перфекционист
+- Фан Зельды
+- Опытный игрок
+- Новичок
+- Хилийский марафонец
+- Нежить
+- Камикадзе
+РАНГИ:
+Геймдизайнер / Разработчик:
 Vincent Jouillat
-Illustrations:
+Иллюстрации:
 Solиne Jouillat
-Hyrule's map:
+Карта Хайрула:
 Adrien Baptis
-Proofreading texts FR:
+Редактура текста (FR):
 Sabrina Jouillat
-US translation:
+Перевод игры (US):
 Sandrine Gadenne
-ES translation:
+Перевод игры (ES):
 Esteban Holguнn
-Thanks:
-to Nintendo for creating the Zelda license
-to zeldaroth.fr forum's community
-for their continuous support!
-- Hyrule's Hero
+Перевод игры (RU):
+Worthis
+Благодарности:
+Nintendo за создание серии игр Zelda
+сообществу форума zeldaroth.fr
+за постоянную поддержку!
+- Герой Хайрула
