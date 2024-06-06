@@ -229,10 +229,4 @@ void Help::draw()
         texts[23]->display(16 + 288 - 10 - size, y);
         y += 16;
     }
-
-    if (y < 176)
-    {
-        texts[14]->display(24, y);
-        y += 16;
-    }
 }
