@@ -269,7 +269,7 @@ void Scene::draw()
     // forest effect
     if (map->getId() == 1)
     {
-        WindowManager::getInstance()->draw(filterForest, (box->getX() / 2) % 256, (box->getY() / 2) % 256, 320, 240, 0, 0);
+        WindowManager::getInstance()->draw(filterForest, (int(box->getX() * 0.5)) % 256, (int(box->getY() * 0.5)) % 256, 320, 240, 0, 0);
     }
 
     animation.draw();
