@@ -34,6 +34,7 @@ void Save::init()
     deaths = 0;
     avancement = AV_START;
     time = 0;
+    equipmentCurrent = Equipment(0);
 
     for (int i = 0; i < NB_EQPMT; i++)
     {
@@ -133,6 +134,8 @@ void Save::load()
                 f.read((char *)&rooms[d][i][j], sizeof(int));
     for (int i = 0; i < NB_MONSTERS; i++)
         f.read((char *)&monsters[i], sizeof(int));
+    if (!f.eof())
+        f.read((char *)&equipmentCurrent, sizeof(int));
     f.close();
     loaded = true;
 }
@@ -184,6 +187,7 @@ void Save::save(bool endGame)
                 f.write((char *)&rooms[d][i][j], sizeof(int));
     for (int i = 0; i < NB_MONSTERS; i++)
         f.write((char *)&monsters[i], sizeof(int));
+    f.write((char *)&equipmentCurrent, sizeof(int));
     f.close();
     GlobalSave::getInstance()->update(this, endGame);
     loaded = true;
@@ -220,6 +224,7 @@ int Save::getDeaths() { return deaths; }
 Avancement Save::getAvancement() { return avancement; }
 int Save::getTime() { return time; }
 int Save::getEquipment(int i) { return equipment[i]; }
+Equipment Save::getEquipmentCurrent() { return equipmentCurrent; }
 int Save::getFlacons(int i) { return flacons[i]; }
 int Save::getQuartCoeur(int i) { return quartCoeur[i]; }
 int Save::getMedaillons(int i) { return medaillons[i]; }
@@ -248,6 +253,7 @@ void Save::setDeaths(int i) { deaths = i; }
 void Save::setAvancement(Avancement av) { avancement = av; }
 void Save::setTime(int i) { time = i; }
 void Save::setEquipment(int i, int value) { equipment[i] = value; }
+void Save::setEquipmentCurrent(Equipment value) { equipmentCurrent = value; }
 void Save::setFlacons(int i, int value) { flacons[i] = value; }
 void Save::setQuartCoeur(int i, int value) { quartCoeur[i] = value; }
 void Save::setMedaillons(int i, int value) { medaillons[i] = value; }

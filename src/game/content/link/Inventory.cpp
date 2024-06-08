@@ -6,7 +6,6 @@
 Inventory::Inventory(Save *save)
 {
     loadFromSave(save);
-    setCurrent((Equipment)0);
     inventaire = ResourceManager::getInstance()->loadImage("data/images/status/inventaire.png");
 }
 
@@ -37,6 +36,7 @@ void Inventory::saveData(Save *save)
     {
         save->setMedaillons(i, medaillons[i]);
     }
+    save->setEquipmentCurrent(getCurrent());
 }
 
 void Inventory::loadFromSave(Save *save)
@@ -61,6 +61,7 @@ void Inventory::loadFromSave(Save *save)
     {
         medaillons[i] = save->getMedaillons(i);
     }
+    setCurrent(save->getEquipmentCurrent());
 }
 
 void Inventory::draw(Equipment e, int x, int y)

@@ -44,6 +44,7 @@ public:
     int getRupeesToAdd();
     int getDeaths();
     int getEquipment(int i);
+    Equipment getEquipmentCurrent();
     int getFlacons(int i);
     int getQuartCoeur(int i);
     int getMedaillons(int i);
@@ -73,6 +74,7 @@ public:
     void setRupeesToAdd(int i);
     void setDeaths(int i);
     void setEquipment(int i, int value);
+    void setEquipmentCurrent(Equipment value);
     void setFlacons(int i, int value);
     void setQuartCoeur(int i, int value);
     void setMedaillons(int i, int value);
@@ -118,6 +120,7 @@ private:
 
     int time;
 
+    Equipment equipmentCurrent;
     int equipment[NB_EQPMT];
     int flacons[NB_FLACON];
     int quartCoeur[NB_QUART_COEUR];
