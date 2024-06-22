@@ -1,4 +1,4 @@
-PRESIONA ENTER
+PRESIONA START
 PANTALLA DE SELECCION
 OPCIONES
 RECORDS
@@ -82,7 +82,7 @@ Link duerme en algún lugar del bosque de Hyrule sin sospechar un ataque de Ganon
 ¡Auxilio!                                       ¡Auxilio!                                       ¡Soy yo, Zelda!                                 Te estoy hablando por telepatía.
 ¡Estoy presa en la mazmorra del castillo!       ¡Necesito tu ayuda!                             Ganon ha vuelto, y es probable que ya tenga la  Trifuerza en su poder...
 Ven rápido al castillo, Link. Eres mi única esperanza...
-AYUDA: Presiona F1 para consultar la ayuda.
+AYUDA: Presiona SELECT para consultar la ayuda.
 ¿Deseas interrumpir la partida?                                    [c=2]CONTINUAR[c=0]                                     GRABAR Y SALIR                                 SALIR SIN GRABAR
 ¿Deseas interrumpir la partida?                                    [c=0]CONTINUAR                                     [c=2]GRABAR Y SALIR[c=0]                                 SALIR SIN GRABAR
 ¿Deseas interrumpir la partida?                                    [c=0]CONTINUAR                                     GRABAR Y SALIR                                 [c=2]SALIR SIN GRABAR
@@ -132,8 +132,8 @@ DEFENSA    :
 TIEMPO     :
 AYUDA 1/2
 AYUDA 2/2
-Regresar al juego: F1      Siguiente: Derecha
-Regresar al juego: F1     Anterior: Izquierda
+Regresar al juego: SELECT  Siguiente: Derecha
+Regresar al juego: SELECT Anterior: Izquierda
 Espadazo:
 Ataque circular:              Mantener espada
 Abrir / Hablar / Levantar:

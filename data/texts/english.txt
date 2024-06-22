@@ -1,4 +1,4 @@
-PRESS ENTER
+PRESS START
 SELECTION SCREEN
 OPTIONS
 RECORDS
@@ -82,7 +82,7 @@ Somewhere in Hyrule's forest, Link is sleeping unaware of Ganon's assault, until
 Help!                                           Help me!                                        It's me! It's Zelda!                            I'm calling you by telepathy.
 I'm held captive in the castle's dungeon! I need your help!                                     Ganon's back and he must have found the Triforce by now... 
 Come to the castle Link, you're my only hope...
-HELP : Press F1 to read the help.
+HELP : Press SELECT to read the help.
 Would you like to quit?                                            [c=2]CONTINUE[c=0]                                      SAVE AND QUIT                                QUIT WITHOUT SAVING
 Would you like to quit?                                            [c=0]CONTINUE                                      [c=2]SAVE AND QUIT[c=0]                                QUIT WITHOUT SAVING
 Would you like to quit?                                            [c=0]CONTINUE                                      SAVE AND QUIT                                [c=2]QUIT WITHOUT SAVING
@@ -132,8 +132,8 @@ DEFENSE:
 TIME:
 HELP 1/2
 HELP 2/2
-Back to game: F1                 Next : Right
-Back to game: F1              Previous : Left
+Back to game: SELECT             Next : Right
+Back to game: SELECT          Previous : Left
 Sword strike:
 Charged attack:                Hold the sword
 Open / Talk / Lift :

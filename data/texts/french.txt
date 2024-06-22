@@ -1,4 +1,4 @@
-APPUYEZ SUR ENTREE
+APPUYEZ SUR START
 ECRAN DE SELECTION
 OPTIONS
 RECORDS
@@ -82,7 +82,7 @@ Quelque part dans la forêt d'Hyrule, Link dort sans se douter que Ganon est pass
 A l'aide !                                      A l'aide !                                      C'est moi ! C'est Zelda !                       Je te parle par télépathie.
 Je suis retenue prisonnière dans le donjon du   château ! J'ai besoin de ton aide !             Ganon est de retour, et il a certainement dû    trouver la Triforce à l'heure qu'il est...
 Viens vite au château Link, tu es mon seul espoir...
-AIDE : Appuie sur F1 pour consulter l'aide.
+AIDE : Appuie sur SELECT pour consulter l'aide.
 Voulez-vous arrêter la partie ?                                    [c=2]CONTINUER[c=0]                                 SAUVEGARDER ET QUITTER                         QUITTER SANS SAUVEGARDER
 Voulez-vous arrêter la partie ?                                    [c=0]CONTINUER                                 [c=2]SAUVEGARDER ET QUITTER[c=0]                         QUITTER SANS SAUVEGARDER
 Voulez-vous arrêter la partie ?                                    [c=0]CONTINUER                                 SAUVEGARDER ET QUITTER                         [c=2]QUITTER SANS SAUVEGARDER
@@ -132,8 +132,8 @@ DEFENSE   :
 TEMPS     :
 AIDE 1 / 2
 AIDE 2 / 2
-Retour au jeu : F1           Suivant : Droite
-Retour au jeu : F1         Précédent : Gauche
+Retour au jeu : SELECT       Suivant : Droite
+Retour au jeu : SELECT     Précédent : Gauche
 Coup d'épée :
 Attaque Tornade :              Maintenir épée
 Ouvrir / Parler / Soulever :
