@@ -8,12 +8,12 @@
 
 Credits::Credits() : over(false), step(0), anim(0)
 {
-    for (int i = 0; i < 16; i++)
+    for (int i = 0; i < 18; i++)
     {
         texts[i] = 0;
     }
     ostringstream os;
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 8; i++)
     {
         os << (i + 1);
         string filename = "data/images/ending/credits/credits_" + os.str() + ".png";
@@ -24,11 +24,11 @@ Credits::Credits() : over(false), step(0), anim(0)
 
 Credits::~Credits()
 {
-    for (int i = 0; i < 16; i++)
+    for (int i = 0; i < 18; i++)
     {
         delete texts[i];
     }
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 8; i++)
     {
         ResourceManager::getInstance()->free(images[i]);
     }
@@ -36,7 +36,7 @@ Credits::~Credits()
 
 void Credits::init()
 {
-    for (int i = 0; i < 16; i++)
+    for (int i = 0; i < 18; i++)
     {
         delete texts[i];
         texts[i] = TextManager::getInstance()->getText(345 + i);
@@ -55,7 +55,7 @@ void Credits::loop()
 {
 
     anim++;
-    if (step == 12)
+    if (step == 14)
     {
         if (anim == 768)
         {
@@ -201,17 +201,34 @@ void Credits::draw()
         if (anim >= 255)
         {
             size = texts[13]->getLength() * letterSize;
-            texts[13]->display(160 - (size / 2), 80);
+            texts[13]->display(160 - (size / 2), 100);
+        }
+        break;
+    case 13:
+        WindowManager::getInstance()->draw(images[6], 0, 0, 320, 240, 0, 0);
+        WindowManager::getInstance()->draw(images[7], 0, 0, 320, 240, 0, 0);
+        break;
+    case 14:
+        WindowManager::getInstance()->draw(images[7], 0, 0, 320, 240, 0, 0);
+        if (anim >= 128)
+        {
+            size = texts[14]->getLength() * letterSize;
+            texts[14]->display(160 - (size / 2), 20);
+        }
+        if (anim >= 255)
+        {
+            size = texts[15]->getLength() * letterSize;
+            texts[15]->display(160 - (size / 2), 80);
         }
         if (anim >= 384)
         {
-            size = texts[14]->getLength() * letterSize;
-            texts[14]->display(160 - (size / 2), 100);
+            size = texts[16]->getLength() * letterSize;
+            texts[16]->display(160 - (size / 2), 100);
         }
         if (anim >= 512)
         {
-            size = texts[15]->getLength() * letterSize;
-            texts[15]->display(160 - (size / 2), 120);
+            size = texts[17]->getLength() * letterSize;
+            texts[17]->display(160 - (size / 2), 120);
         }
         break;
     }

@@ -35,8 +35,8 @@ private:
     int step;
     int anim;
 
-    Text *texts[16];
-    WImage *images[7];
+    Text *texts[18];
+    WImage *images[8];
 };
 
 #endif // Credits.h
