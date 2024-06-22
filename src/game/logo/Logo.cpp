@@ -9,15 +9,9 @@
 
 Logo::Logo() : anim(0), animMax(15), vanim(60), first(true)
 {
-    wasFrench = ConfigurationManager::getInstance()->isFrench();
-    if (wasFrench)
-    {
-        image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond.png");
-    }
-    else
-    {
-        image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond_us.png");
-    }
+    currentLogoFond = getLogoFond();
+
+    image = ResourceManager::getInstance()->loadImage(currentLogoFond);
     imageLogo = ResourceManager::getInstance()->loadImage("data/images/logos/logo.png");
 }
 
@@ -29,19 +23,15 @@ Logo::~Logo()
 
 void Logo::init()
 {
-    if (ConfigurationManager::getInstance()->isFrench() != wasFrench)
+    string newLogoFond = getLogoFond();
+
+    if (currentLogoFond != newLogoFond)
     {
-        wasFrench = !wasFrench;
+        currentLogoFond = newLogoFond;
         ResourceManager::getInstance()->free(image);
-        if (wasFrench)
-        {
-            image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond.png");
-        }
-        else
-        {
-            image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond_us.png");
-        }
+        image = ResourceManager::getInstance()->loadImage(currentLogoFond);
     }
+
     anim = 0;
     chrono.reset();
 }
@@ -84,4 +74,19 @@ void Logo::draw()
     WindowManager::getInstance()->draw(image, 0, 0, 320, 240, 0, 0);
 
     WindowManager::getInstance()->draw(imageLogo, 144 * (anim % 4), 144 * (anim / 4), 144, 144, 88, 60);
+}
+
+const string Logo::getLogoFond()
+{
+    if (ConfigurationManager::getInstance()->isFrench())
+    {
+        return "data/images/logos/logo_fond.png";
+    }
+
+    if (ConfigurationManager::getInstance()->isRussian())
+    {
+        return "data/images/logos/logo_fond_ru.png";
+    }
+
+    return "data/images/logos/logo_fond_us.png";
 }

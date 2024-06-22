@@ -29,12 +29,14 @@ public:
     void draw();
 
 private:
+    const string getLogoFond();
+
     int anim;
     int animMax;
     int vanim;
 
     bool first;
-    bool wasFrench;
+    string currentLogoFond;
 
     WImage *image;
     WImage *imageLogo;
