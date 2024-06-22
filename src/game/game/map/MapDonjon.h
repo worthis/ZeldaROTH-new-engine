@@ -39,6 +39,7 @@ private:
     bool bossIsAlive();
 
     void loadImages();
+    void loadDonjonImages();
     void drawMap();
 
     int getWidth();
@@ -61,6 +62,8 @@ private:
     int etage;
 
     bool wasFrench;
+
+    int lastLang;
 
     int offsetSkin;
 

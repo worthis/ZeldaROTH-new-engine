@@ -19,7 +19,7 @@
 class Hud
 {
 public:
-    Hud(Status *status, Inventory *inventory, bool isFrench);
+    Hud(Status *status, Inventory *inventory, int lang);
     ~Hud();
 
     void loop();
@@ -43,7 +43,7 @@ private:
 
     Status *status;
     Inventory *inventory;
-    bool french;
+    int currentLang;
     int animBoss;
     int bossLife;
     int bossMaxLife;

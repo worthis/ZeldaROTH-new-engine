@@ -29,14 +29,14 @@ public:
     void draw();
 
 private:
-    const string getLogoFond();
+    void loadLogoFond();
 
     int anim;
     int animMax;
     int vanim;
 
     bool first;
-    string currentLogoFond;
+    int lastLang;
 
     WImage *image;
     WImage *imageLogo;

@@ -9,9 +9,9 @@
 
 Logo::Logo() : anim(0), animMax(15), vanim(60), first(true)
 {
-    currentLogoFond = getLogoFond();
+    lastLang = ConfigurationManager::getInstance()->getLang();
 
-    image = ResourceManager::getInstance()->loadImage(currentLogoFond);
+    loadLogoFond();
     imageLogo = ResourceManager::getInstance()->loadImage("data/images/logos/logo.png");
 }
 
@@ -23,13 +23,14 @@ Logo::~Logo()
 
 void Logo::init()
 {
-    string newLogoFond = getLogoFond();
-
-    if (currentLogoFond != newLogoFond)
+    int currentLang = ConfigurationManager::getInstance()->getLang();
+    if (lastLang != currentLang)
     {
-        currentLogoFond = newLogoFond;
+        lastLang = currentLang;
+
         ResourceManager::getInstance()->free(image);
-        image = ResourceManager::getInstance()->loadImage(currentLogoFond);
+
+        loadLogoFond();
     }
 
     anim = 0;
@@ -76,17 +77,19 @@ void Logo::draw()
     WindowManager::getInstance()->draw(imageLogo, 144 * (anim % 4), 144 * (anim / 4), 144, 144, 88, 60);
 }
 
-const string Logo::getLogoFond()
+void Logo::loadLogoFond()
 {
     if (ConfigurationManager::getInstance()->isFrench())
     {
-        return "data/images/logos/logo_fond.png";
+        image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond.png");
+        return;
     }
 
     if (ConfigurationManager::getInstance()->isRussian())
     {
-        return "data/images/logos/logo_fond_ru.png";
+        image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond_ru.png");
+        return;
     }
 
-    return "data/images/logos/logo_fond_us.png";
+    image = ResourceManager::getInstance()->loadImage("data/images/logos/logo_fond_us.png");
 }
