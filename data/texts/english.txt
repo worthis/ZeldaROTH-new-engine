@@ -355,6 +355,8 @@ US translation:
 Sandrine Gadenne
 ES translation:
 Esteban Holguín
+RU translation:
+Worthis
 Thanks:
 to Nintendo for creating the Zelda license
 to zeldaroth.fr forum's community

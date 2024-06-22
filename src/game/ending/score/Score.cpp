@@ -80,7 +80,7 @@ void Score::init()
 
         if (completion == 100)
         {
-            texts[9] = TextManager::getInstance()->getText(361);
+            texts[9] = TextManager::getInstance()->getText(363);
         }
         else if (completion >= 95)
         {
