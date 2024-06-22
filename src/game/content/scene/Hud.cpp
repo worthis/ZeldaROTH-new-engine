@@ -62,22 +62,22 @@ void Hud::drawEtage()
 {
     if (displayEtg)
     {
-        int levelPosX = 0;
+        int srcX;
 
         switch (currentLang)
         {
         case 0:
-            levelPosX = 0;
+            srcX = 0;
             break;
         case 3:
-            levelPosX = 64;
+            srcX = 64;
             break;
         default:
-            levelPosX = 32;
+            srcX = 32;
             break;
         }
 
-        WindowManager::getInstance()->draw(level, levelPosX, 32 - etage * 16, 32, 16, 288, 0);
+        WindowManager::getInstance()->draw(level, srcX, 32 - etage * 16, 32, 16, 288, 0);
     }
 }
 
@@ -120,10 +120,26 @@ void Hud::drawBonus()
 
 void Hud::drawLife()
 {
-
     // life
-    int srcY = (currentLang == 0) ? 17 : 0;
-    int srcH = (currentLang == 0) ? 8 : 7;
+    int srcY;
+    int srcH;
+
+    switch (currentLang)
+    {
+    case 0:
+        srcY = 17;
+        srcH = 8;
+        break;
+    case 3:
+        srcY = 25;
+        srcH = 8;
+        break;
+    default:
+        srcY = 0;
+        srcH = 7;
+        break;
+    }
+
     WindowManager::getInstance()->draw(image, 158, srcY, 44, srcH, 250, 10);
 
     // hearts
