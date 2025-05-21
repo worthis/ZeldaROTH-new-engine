@@ -13,6 +13,7 @@ WindowManager::WindowManager() : fullScreen(FULLSCREEN), event(0), joystick(0), 
 	buttonY = false;
 	buttonStart = false;
 	buttonSelect = false;
+	buttonMenu = false;
 	buttonLB = false;
 	buttonRB = false;
 }
@@ -71,13 +72,6 @@ int WindowManager::createWindow(string title, string iconName, bool full)
 		SDL_SetColorKey(icon, SDL_TRUE, SDL_MapRGB(icon->format, 0, 0, 0));
 		SDL_SetWindowIcon(window, icon);
 		SDL_FreeSurface(icon);
-
-		/*fullScreen = true;
-
-		SDL_WM_SetCaption(title.c_str(), NULL);
-
-		window = SDL_SetVideoMode(WINDOW_SIZE_W, WINDOW_SIZE_H, 32, SDL_HWSURFACE | SDL_DOUBLEBUF | SDL_FULLSCREEN);
-		windowTmp = SDL_CreateRGBSurface(SDL_HWSURFACE, GAME_SIZE_W, GAME_SIZE_H, 32, 0, 0, 0, 0);*/
 
 		event = new Event();
 		lastAnimTime = SDL_GetTicks();
@@ -180,6 +174,8 @@ Event *WindowManager::getEvent()
 				buttonSelect = true;
 			else if (sdlEvent.jbutton.button == 7)
 				buttonStart = true;
+			else if (sdlEvent.jbutton.button == 8)
+				buttonMenu = true;
 			break;
 		case SDL_JOYBUTTONUP:
 			if (sdlEvent.jbutton.button == 0)
@@ -198,6 +194,8 @@ Event *WindowManager::getEvent()
 				buttonSelect = false;
 			else if (sdlEvent.jbutton.button == 7)
 				buttonStart = false;
+			else if (sdlEvent.jbutton.button == 8)
+				buttonMenu = false;
 			break;
 		}
 	}

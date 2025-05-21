@@ -76,6 +76,7 @@ private:
     bool buttonY;
     bool buttonStart;
     bool buttonSelect;
+    bool buttonMenu;
     bool buttonLB;
     bool buttonRB;
 };

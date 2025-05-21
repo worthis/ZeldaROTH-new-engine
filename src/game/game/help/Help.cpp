@@ -42,16 +42,32 @@ void Help::init()
         texts[i] = TextManager::getInstance()->getText(132 + i);
     }
 
-    KeyBinder *kb = KeyBinder::getInstance();
-    texts[15] = kb->getTextForType(BT_EPEE);
-    texts[16] = kb->getTextForType(BT_ACTION);
-    texts[17] = kb->getTextForType(BT_OBJET);
-    texts[18] = kb->getTextForType(BT_INVENTAIRE);
-    texts[19] = kb->getTextForType(BT_COURSE);
-    texts[20] = kb->getTextForType(BT_CARTE);
-    texts[21] = kb->getTextForType(BT_MONSTERS);
-    texts[22] = kb->getTextForType(BT_CAMERA);
-    texts[23] = kb->getTextForType(BT_OPTIONS);
+    if (WindowManager::getInstance()->nbJoysticks() > 0)
+    {
+        JoystickBinder *jb = JoystickBinder::getInstance();
+        texts[15] = jb->getTextForType(BT_EPEE);
+        texts[16] = jb->getTextForType(BT_ACTION);
+        texts[17] = jb->getTextForType(BT_OBJET);
+        texts[18] = jb->getTextForType(BT_INVENTAIRE);
+        texts[19] = jb->getTextForType(BT_COURSE);
+        texts[20] = jb->getTextForType(BT_CARTE);
+        texts[21] = jb->getTextForType(BT_MONSTERS);
+        texts[22] = jb->getTextForType(BT_CAMERA);
+        texts[23] = jb->getTextForType(BT_OPTIONS);
+    }
+    else
+    {
+        KeyBinder *kb = KeyBinder::getInstance();
+        texts[15] = kb->getTextForType(BT_EPEE);
+        texts[16] = kb->getTextForType(BT_ACTION);
+        texts[17] = kb->getTextForType(BT_OBJET);
+        texts[18] = kb->getTextForType(BT_INVENTAIRE);
+        texts[19] = kb->getTextForType(BT_COURSE);
+        texts[20] = kb->getTextForType(BT_CARTE);
+        texts[21] = kb->getTextForType(BT_MONSTERS);
+        texts[22] = kb->getTextForType(BT_CAMERA);
+        texts[23] = kb->getTextForType(BT_OPTIONS);
+    }
 }
 
 void Help::cadre(int x, int y, int w, int h)

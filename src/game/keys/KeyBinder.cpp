@@ -149,15 +149,15 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
         os << (qwerty ? "Z" : "W");
         break;
     case kE:
-        // os << "E";
-        os << "L1";
+        os << "E";
+        //os << "L1";
         break;
     case kR:
         os << "R";
         break;
     case kT:
-        // os << "T";
-        os << "R1";
+        os << "T";
+        //os << "R1";
         break;
     case kY:
         os << "Y";
@@ -229,42 +229,46 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
         os << (qwerty ? ";" : "M");
         break;
     case kEscape:
-        // tmp = TextManager::getInstance()->getText(42);
-        os << "MENU";
+        tmp = TextManager::getInstance()->getText(42);
+        os << tmp;
+        //os << "MENU";
         break;
     case kTab:
-        // tmp = TextManager::getInstance()->getText(43);
-        os << "L2";
+        tmp = TextManager::getInstance()->getText(43);
+        os << tmp;
+        //os << "L2";
         break;
     case kLShift:
-        // os << "LSHIFT";
-        os << "X";
+        os << "LSHIFT";
+        //os << "X";
         break;
     case kRShift:
         os << "RSHIFT";
         break;
     case kLCtrl:
-        // os << "LCTRL";
-        os << "B";
+        os << "LCTRL";
+        //os << "B";
         break;
     case kRCtrl:
-        // os << "RCTRL";
-        os << "SELECT";
+        os << "RCTRL";
+        //os << "SELECT";
         break;
     case kLAlt:
-        // os << "LALT";
-        os << "Y";
+        os << "LALT";
+        //os << "Y";
         break;
     case kRAlt:
         os << "RALT";
         break;
     case kSpace:
-        // tmp = TextManager::getInstance()->getText(45);
-        os << "A";
+        tmp = TextManager::getInstance()->getText(45);
+        os << tmp;
+        //os << "A";
         break;
     case kReturn:
-        // tmp = TextManager::getInstance()->getText(46);
-        os << "START";
+        tmp = TextManager::getInstance()->getText(46);
+        os << tmp;
+        //os << "START";
         break;
     case k0:
         os << "0";
@@ -312,8 +316,8 @@ Text *KeyBinder::getTextForKey(Keys key, int color)
         os << "F1";
         break;
     case kBackspace:
-        // os << "BACKSPACE";
-        os << "R2";
+        os << "BACKSPACE";
+        //os << "R2";
         break;
     default:
         os << "?";

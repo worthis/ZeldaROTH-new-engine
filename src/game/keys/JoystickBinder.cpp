@@ -48,7 +48,9 @@ Keys JoystickBinder::getDefaultKey(BindableType type)
     case BT_OBJET:
         return jX;
     case BT_COURSE:
-        return jSelect;
+        return jRT;
+    case BT_CAMERA:
+        return jLT;
     default:
         return jStart;
     }
@@ -71,6 +73,7 @@ void JoystickBinder::init(string filename)
         f.read((char *)&map[BT_EPEE], sizeof(int));
         f.read((char *)&map[BT_OBJET], sizeof(int));
         f.read((char *)&map[BT_COURSE], sizeof(int));
+        f.read((char *)&map[BT_CAMERA], sizeof(int));
         f.close();
     }
 }
@@ -90,6 +93,7 @@ void JoystickBinder::save()
     f.write((char *)&map[BT_EPEE], sizeof(int));
     f.write((char *)&map[BT_OBJET], sizeof(int));
     f.write((char *)&map[BT_COURSE], sizeof(int));
+    f.write((char *)&map[BT_CAMERA], sizeof(int));
     f.close();
     haveToSave = false;
 }
@@ -100,6 +104,12 @@ void JoystickBinder::addMenuEventsForJoystick(Event *event)
     if (event->isPushed(jStart) || event->isPushed(jA) || event->isPushed(jB))
     {
         event->setEvent(kReturn, true);
+    }
+
+    // escape
+    if (event->isPushed(jSelect))
+    {
+        event->setEvent(kEscape, true);
     }
 
     // arrows
@@ -203,6 +213,10 @@ void JoystickBinder::addGameEventsForJoystick(Event *event)
     if (event->isDown(map[BT_OBJET]))
     {
         event->setEvent(kb->getKey(BT_OBJET), true);
+    }
+    if(event->isDown(jSelect))
+    {
+        event->setEvent(kRCtrl, true);
     }
 }
 
