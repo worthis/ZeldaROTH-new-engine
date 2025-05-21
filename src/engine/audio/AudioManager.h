@@ -50,8 +50,6 @@ private:
     int volumeMusic;
     int volumeSound;
     AudioConfiguration *config;
-    int previous_volume;
-    int previous_volson;
     bool playing;
     bool SOUND;
     int previousMusic;

@@ -3,7 +3,7 @@
 AudioManager AudioManager::instance = AudioManager();
 
 AudioManager::AudioManager() : current(0), music(0), volumeMusic(128), volumeSound(128),
-                               config(0), previous_volume(0), previous_volson(0), playing(false)
+                               config(0), playing(false)
 {
     SOUND = true;
     previousMusic = -1;
@@ -26,7 +26,6 @@ void AudioManager::init()
     if (SOUND)
     {
         Mix_OpenAudio(44100, AUDIO_S16SYS, 2, 1024);
-        previous_volson = Mix_VolumeMusic(volumeMusic);
     }
 }
 
@@ -38,7 +37,7 @@ void AudioManager::close()
         {
             Mix_PauseMusic();
         }
-        Mix_VolumeMusic(previous_volume);
+
         if (current != 0)
         {
             Mix_HaltMusic();
@@ -60,24 +59,24 @@ void AudioManager::setConfiguration(AudioConfiguration *conf)
 
 int AudioManager::getVolumeMusic()
 {
-    return volumeMusic / 2;
+    return volumeMusic;
 }
 
 int AudioManager::getVolumeSound()
 {
-    return volumeSound / 2;
+    return volumeSound;
 }
 
 void AudioManager::setVolumeMusic(int v)
 {
-    volumeMusic = v * 2;
+    volumeMusic = v;
     if (SOUND)
         Mix_VolumeMusic(volumeMusic);
 }
 
 void AudioManager::setVolumeSound(int v)
 {
-    volumeSound = v * 2;
+    volumeSound = v;
     if (SOUND)
         for (int i = 0; i < config->getNbSounds(); i++)
             Mix_VolumeChunk(config->getSound(i)->getSound(), volumeSound);

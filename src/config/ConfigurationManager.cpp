@@ -124,6 +124,11 @@ void ConfigurationManager::setVolume(int v)
 {
     if (volume != v)
     {
+        if (v < 0)
+            v = 0;
+        if (v > 128)
+            v = 128;
+
         volume = v;
         haveToSave = true;
         AudioManager::getInstance()->setVolumeMusic(volume);
@@ -134,6 +139,11 @@ void ConfigurationManager::setVolson(int v)
 {
     if (volson != v)
     {
+        if (v < 0)
+            v = 0;
+        if (v > 128)
+            v = 128;
+            
         volson = v;
         haveToSave = true;
         AudioManager::getInstance()->setVolumeSound(volson);
