@@ -2,7 +2,7 @@
 
 ![Zelda Return of the Hylian logo](thumbnail.png)
 
-It's a Miyoo Mini Port and Russian translation of [**Zelda - Return of the Hylian**](http://www.zeldaroth.fr/), a short and pleasant fangame from Vincent Jouillat. The original game was developed in C++ and was released in 2006.
+It's a Switch Port and Russian translation of [**Zelda - Return of the Hylian**](http://www.zeldaroth.fr/), a short and pleasant fangame from Vincent Jouillat. The original game was developed in C++ and was released in 2006.
 
 Based on Zelda ROTH 7.8 version.
 
