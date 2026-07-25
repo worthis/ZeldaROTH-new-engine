@@ -60,7 +60,7 @@ Keys KeyBinder::getDefaultKey(BindableType type)
     case BT_CAMERA:
         return kBackspace;
     default:
-        return kUp;
+        return NB_KEYS;
     }
 }
 

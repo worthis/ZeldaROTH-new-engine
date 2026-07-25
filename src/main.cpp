@@ -65,14 +65,12 @@ int main(int argc, char **argv)
 
     while (windowManager->isOpened())
     {
-
         event = windowManager->getEvent();
-
         controller->control(event);
+        configurationManager->save();
 
         if (event->isPushed(QUIT) || event->isPushed(kEscape) || event->isPushed(QUIT_FORCED))
         {
-
             windowManager->close();
             continue;
         }
@@ -83,7 +81,6 @@ int main(int argc, char **argv)
     controller->close();
 
     configurationManager->setFull(windowManager->isFullScreen());
-
     configurationManager->save();
     configurationManager->close();
     AudioManager::getInstance()->close();

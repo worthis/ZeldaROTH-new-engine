@@ -132,28 +132,28 @@ string TextHelper::getCommonValue(string tag)
 {
     if (tag == "EPEE")
     {
-        Text *tmp = KeyBinder::getInstance()->getTextForType(BT_EPEE);
+        Text *tmp = JoystickBinder::getInstance()->getTextForType(BT_EPEE);
         string result = tmp->getText();
         delete tmp;
         return result;
     }
     if (tag == "CARTE")
     {
-        Text *tmp = KeyBinder::getInstance()->getTextForType(BT_CARTE);
+        Text *tmp = JoystickBinder::getInstance()->getTextForType(BT_CARTE);
         string result = tmp->getText();
         delete tmp;
         return result;
     }
     if (tag == "ACTION")
     {
-        Text *tmp = KeyBinder::getInstance()->getTextForType(BT_ACTION);
+        Text *tmp = JoystickBinder::getInstance()->getTextForType(BT_ACTION);
         string result = tmp->getText();
         delete tmp;
         return result;
     }
     if (tag == "MONSTERS")
     {
-        Text *tmp = KeyBinder::getInstance()->getTextForType(BT_MONSTERS);
+        Text *tmp = JoystickBinder::getInstance()->getTextForType(BT_MONSTERS);
         string result = tmp->getText();
         delete tmp;
         return result;

@@ -23,7 +23,7 @@ JoystickBinder *JoystickBinder::getInstance()
 void JoystickBinder::restoreDefault()
 {
     // default values
-    for (int i = 0; i < BT_UP; i++)
+    for (int i = 0; i < NB_BINDABLE; i++)
     {
         map[i] = getDefaultKey((BindableType)i);
     }
@@ -52,7 +52,7 @@ Keys JoystickBinder::getDefaultKey(BindableType type)
     case BT_CAMERA:
         return jLT;
     default:
-        return jStart;
+        return NB_KEYS;
     }
 }
 
@@ -260,7 +260,7 @@ void JoystickBinder::setKey(BindableType type, Keys key)
 
 Text *JoystickBinder::getTextForType(BindableType type, int color)
 {
-    return getTextForKey(map[type], color);
+    return getTextForKey(getKey(type), color);
 }
 
 Text *JoystickBinder::getTextForKey(Keys key, int color)
