@@ -1,91 +1,67 @@
 .SUFFIXES:
 
-# Включаем параллельную сборку по умолчанию
 MAKEFLAGS += --no-print-directory
 
 ifeq ($(strip $(DEVKITPRO)),)
-$(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>/devkitpro")
+$(error "Set DEVKITPRO in your environment. (export DEVKITPRO=/opt/devkitpro)")
 endif
 
 TOPDIR ?= $(CURDIR)
+
 include $(DEVKITPRO)/libnx/switch_rules
 
-#---------------------------------------------------------------------------------
-TARGET		:=	ZeldaROTH
-BUILD		:=	build
+TARGET      :=  ZeldaRotH_nx
+APP_TITLE   := Zelda - Return of the Hylian
+APP_AUTHOR  := Vincent Jouillat (Switch port by Worthis)
+APP_VERSION := 7.8.0.1
+APP_ICON    := $(TOPDIR)/icon.jpg
+export APP_TITLE APP_AUTHOR APP_VERSION APP_ICON
 
-#---------------------------------------------------------------------------------
-# Метаинформация приложения (отображается в Homebrew Menu)
-#---------------------------------------------------------------------------------
-APP_TITLE     := Zelda - Return of the Hylian
-APP_AUTHOR    := Vincent Jouillat (Switch port by Worthis)
-APP_VERSION   := 7.8.0.1
-# APP_TITLEID := 0000000000000000  # опционально, только если нужен конкретный ID
+BUILD       :=  build
+ifneq ($(wildcard src/.),)
+    SOURCES := $(shell find src -type d)
+    export SOURCES
+endif
+INCLUDES := include
 
-# Путь к иконке (256x256 JPEG)
-ICON          := $(CURDIR)/icon.jpg
+ARCH    :=  -march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 
-# --- Автоматический поиск всех подпапок с исходным кодом ---
-INITIAL_SOURCES := src
-ALL_DIRS := $(shell find $(INITIAL_SOURCES) -type d)
-SOURCES		:=	$(ALL_DIRS)
-# ------------------------------------------------------------------------
+CFLAGS   :=  -g -Wall -O2 -ffunction-sections $(ARCH) $(DEFINES)
+CFLAGS   +=  $(INCLUDE) -D__SWITCH__
+CXXFLAGS := $(CFLAGS) -std=gnu++14
+ASFLAGS  :=  -g $(ARCH)
+LDFLAGS  =   -specs=$(DEVKITPRO)/libnx/switch.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 
-INCLUDES	:=	include
-ROMFS		:=	data  # Папка data будет упакована как RomFS
+LIBS    :=  -lSDL2_mixer -lmodplug -lmpg123 -lvorbisfile -lopusfile -lopus -lvorbis -logg \
+            -lSDL2_image -lpng -ljpeg -lwebp \
+            -lSDL2 -lEGL -lglapi -ldrm_nouveau -lnx -lm -lz
 
-#---------------------------------------------------------------------------------
-ARCH	:=	-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
+LIBDIRS :=  $(PORTLIBS) $(LIBNX)
 
-CFLAGS	:=	-g -Wall -O2 -ffunction-sections $(ARCH) $(DEFINES)
-CFLAGS	+=	$(INCLUDE) -D__SWITCH__
-
-# Стандарт C++14 для совместимости с libnx
-CXXFLAGS	:= $(CFLAGS) -std=gnu++14
-
-ASFLAGS	:=	-g $(ARCH)
-LDFLAGS	=	-specs=$(DEVKITPRO)/libnx/switch.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
-
-# Порядок библиотек критичен
-LIBS	:= -lSDL2_mixer -lmodplug -lmpg123 -lvorbisfile -lopusfile -lopus -lvorbis -logg \
-	   -lSDL2_image -lpng -ljpeg -lwebp \
-	   -lSDL2 -lEGL -lglapi -ldrm_nouveau -lnx -lm -lz
-
-LIBDIRS	:= $(PORTLIBS) $(LIBNX)
-
-#---------------------------------------------------------------------------------
 ifneq ($(BUILD),$(notdir $(CURDIR)))
-#---------------------------------------------------------------------------------
-export OUTPUT	:=	$(CURDIR)/$(TARGET)
-export TOPDIR	:=	$(CURDIR)
-export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir))
-export DEPSDIR	:=	$(CURDIR)/$(BUILD)
+export OUTPUT   :=  $(CURDIR)/$(TARGET)
+export TOPDIR   :=  $(CURDIR)
+export VPATH    :=  $(foreach dir,$(SOURCES),$(CURDIR)/$(dir))
+export DEPSDIR  :=  $(CURDIR)/$(BUILD)
 
-CFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.c)))
-CPPFILES	:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
-SFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
+CFILES   :=  $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.c)))
+CPPFILES :=  $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
+SFILES   :=  $(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
 
 ifeq ($(strip $(CPPFILES)),)
-	export LD	:=	$(CC)
+    export LD   :=  $(CC)
 else
-	export LD	:=	$(CXX)
+    export LD   :=  $(CXX)
 endif
 
-export OFILES_SRC	:=	$(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(SFILES:.s=.o)
-export OFILES 		:=	$(OFILES_SRC)
+export OFILES_SRC   :=  $(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(SFILES:.s=.o)
+export OFILES       :=  $(OFILES_SRC)
 
-# Добавляем все исходные папки в Include paths, чтобы компилятор находил заголовки
-export INCLUDE	:=	$(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
-			$(foreach dir,$(LIBDIRS),-I$(dir)/include) \
-			$(foreach dir,$(SOURCES),-I$(CURDIR)/$(dir))
+export INCLUDE  :=  $(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
+                    $(foreach dir,$(LIBDIRS),-I$(dir)/include) \
+                    $(foreach dir,$(SOURCES),-I$(CURDIR)/$(dir))
 
-export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
-
-export BUILD_EXE_CMD	:=	$(LD) -o $(OUTPUT).elf $(OFILES) $(LIBPATHS) $(LIBS)
-export BUILD_NRO_CMD	:=	elf2nro $(OUTPUT).elf $(OUTPUT).nro \
-				--nacp=$(OUTPUT).nacp \
-				--icon=$(ICON) \
-				--romfsdir=$(CURDIR)/$(ROMFS)
+export LIBPATHS :=  $(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 
 .PHONY: $(BUILD) clean all
 
@@ -97,13 +73,16 @@ $(BUILD):
 
 clean:
 	@echo "clean ..."
-	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).nro
+	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).nro $(TARGET).nacp
 
 else
-#---------------------------------------------------------------------------------
-$(OUTPUT).nro	:	$(OUTPUT).elf
-$(OUTPUT).elf	:	$(OFILES)
+
+NROFLAGS := --icon=$(APP_ICON) --nacp=$(OUTPUT).nacp
+
+all : $(OUTPUT).nro
+$(OUTPUT).nro : $(OUTPUT).elf $(OUTPUT).nacp
+$(OUTPUT).elf : $(OFILES)
 
 -include $(DEPSDIR)/*.d
-#---------------------------------------------------------------------------------
+
 endif
