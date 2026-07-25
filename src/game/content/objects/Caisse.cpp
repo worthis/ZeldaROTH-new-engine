@@ -201,6 +201,7 @@ bool Caisse::isResetable()
 
 void Caisse::reset()
 {
+    alive = true;
     moving = false;
     dx = 0;
     dy = 0;

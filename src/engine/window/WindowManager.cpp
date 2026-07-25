@@ -320,7 +320,6 @@ Event *WindowManager::getEvent()
 		if (rx != 0 || ry != 0)
 		{
 			double dist = sqrt(rx * rx + ry * ry);
-			bool rush = dist > 20000;
 			double cos = rx / dist;
 			double angle = (ry <= 0) ? acos(cos) : -acos(cos);
 			if (angle < 0)

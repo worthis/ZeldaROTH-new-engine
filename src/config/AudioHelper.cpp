@@ -181,6 +181,9 @@ void AudioHelper::loadSounds()
     sounds[TS_TEXT] = new WSound("data/sounds/texts/text.wav");
     sounds[TS_TEXTNEXT] = new WSound("data/sounds/texts/textnext.wav");
     sounds[TS_TEXTEND] = new WSound("data/sounds/texts/textend.wav");
+    
+    sounds[TS_STEP_SNOW1] = new WSound("data/sounds/steps/Steps_Snow1.wav");
+    sounds[TS_STEP_SNOW2] = new WSound("data/sounds/steps/Steps_Snow2.wav");
 }
 
 void AudioHelper::deleteSounds()

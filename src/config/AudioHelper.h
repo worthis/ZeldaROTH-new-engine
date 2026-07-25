@@ -39,6 +39,8 @@ enum TypeSound
     TS_STEP_WOOD2,
     TS_STEP_CARPET1,
     TS_STEP_CARPET2,
+    TS_STEP_SNOW1,
+    TS_STEP_SNOW2,
 
     TS_JUMP,
     TS_PLOUF,
