@@ -16,6 +16,10 @@ WindowManager::WindowManager() : fullScreen(FULLSCREEN), event(0), joystick(0), 
 	buttonMenu = false;
 	buttonLB = false;
 	buttonRB = false;
+	buttonUp = false;
+	buttonDown = false;
+	buttonLeft = false;
+	buttonRight = false;
 }
 
 WindowManager::~WindowManager()
